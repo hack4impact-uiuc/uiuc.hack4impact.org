@@ -16,6 +16,7 @@ const Quote = ({ quote, source, sourceTitle }) =>
               <p class="project-body-quote">
                 <b>{quote}</b>
               </p>
+              <b><h1>”</h1></b>
               <footer class="blockquote-footer">
                 {source}
                 <cite title="Source Title">, {sourceTitle}</cite>
