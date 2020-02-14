@@ -17,7 +17,7 @@
     "react-toastify": "^4.5.1",
     "react-vertical-timeline-component": "^2.3.1",
     "reactstrap": "^6.5.0",
-    "yarn": "^1.16.0"
+    "yarn": "^1.22.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
