@@ -9,7 +9,7 @@ export default {
     {
       name: "Arpan Laha",
       year: "'21",
-      quote: "",
+      quote: "When I joined Hack4Impact, I had no idea which direction I wanted to take with my life - academically, professionally, and personally. In my time here, however, I've been able to build my skills while seeing how they fit into the bigger picture, not to mention creating a tangible impact with some of the most hard-working and motivated people I've met. It's been great to see how the organization has evolved in the past few semesters and I'm excited to see how it continues to grow!",
       linkedin: "https://www.linkedin.com/in/arpanlaha/"
     }
   ],
