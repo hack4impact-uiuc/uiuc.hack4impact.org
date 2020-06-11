@@ -6,6 +6,9 @@ import ErrorMessage from "../components/errorMessage";
 import Footer from "../components/footer";
 import { PageTransition } from "next-page-transitions";
 
+import "../public/style.css";
+import "../public/react-toast.css";
+
 export default class MyApp extends App {
   constructor(props) {
     super(props);

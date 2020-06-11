@@ -7,117 +7,117 @@ const techStackMasterList = {
   react: {
     link: "https://reactjs.org/",
     title: "React",
-    imgPath: "/static/images/techStack/react.jpg"
+    imgPath: "/images/techStack/react.jpg",
   },
   redux: {
     link: "https://redux.js.org/",
     title: "Redux",
-    imgPath: "/static/images/techStack/redux.jpg"
+    imgPath: "/images/techStack/redux.jpg",
   },
   flask: {
     link: "http://flask.pocoo.org/",
     title: "Flask",
-    imgPath: "/static/images/techStack/flask.jpg"
+    imgPath: "/images/techStack/flask.jpg",
   },
   mongodb: {
     link: "https://www.mongodb.com/",
     title: "MongoDB",
-    imgPath: "/static/images/techStack/mongodb.jpg"
+    imgPath: "/images/techStack/mongodb.jpg",
   },
   reactnative: {
     link: "https://facebook.github.io/react-native/",
     title: "React Native",
-    imgPath: "/static/images/techStack/react.jpg"
+    imgPath: "/images/techStack/react.jpg",
   },
   postgres: {
     link: "https://www.postgresql.org/",
     title: "Postgres",
-    imgPath: "/static/images/techStack/postgres.jpg"
+    imgPath: "/images/techStack/postgres.jpg",
   },
   relay: {
     link: "https://facebook.github.io/relay/",
     title: "Relay",
-    imgPath: "/static/images/techStack/relay.jpg"
+    imgPath: "/images/techStack/relay.jpg",
   },
   nodejs: {
     link: "https://nodejs.org/en/",
     title: "Node.js",
-    imgPath: "/static/images/techStack/nodejs.jpg"
+    imgPath: "/images/techStack/nodejs.jpg",
   },
   graphql: {
     link: "https://graphql.org/",
     title: "GraphQL",
-    imgPath: "/static/images/techStack/graphql.jpg"
+    imgPath: "/images/techStack/graphql.jpg",
   },
   redis: {
     link: "https://redis.io/",
     title: "Redis",
-    imgPath: "/static/images/techStack/redis.jpg"
+    imgPath: "/images/techStack/redis.jpg",
   },
   python: {
     link: "https://www.python.org/",
     title: "Python",
-    imgPath: "/static/images/techStack/python.jpg"
+    imgPath: "/images/techStack/python.jpg",
   },
   sklearn: {
     link: "https://scikit-learn.org/stable/",
     title: "Scikit-Learn",
-    imgPath: "/static/images/techStack/sklearn.png"
+    imgPath: "/images/techStack/sklearn.png",
   },
   gensim: {
     link: "https://radimrehurek.com/gensim/",
     title: "Gensim",
-    imgPath: "/static/images/techStack/gensim.png"
+    imgPath: "/images/techStack/gensim.png",
   },
   nltk: {
     link: "https://www.nltk.org",
     title: "NLTK",
-    imgPath: "/static/images/techStack/python.jpg"
+    imgPath: "/images/techStack/python.jpg",
   },
   beautifulsoup: {
     link: "https://www.crummy.com/software/BeautifulSoup/bs4/doc/",
     title: "Beautiful Soup",
-    imgPath: "/static/images/techStack/beautiful soup.jpg"
+    imgPath: "/images/techStack/beautiful soup.jpg",
   },
   dynamodb: {
     link: "https://aws.amazon.com/dynamodb/",
     title: "DynamoDB",
-    imgPath: "/static/images/techStack/dynamodb.png"
+    imgPath: "/images/techStack/dynamodb.png",
   },
   aws: {
     link: "https://aws.amazon.com",
     title: "AWS",
-    imgPath: "/static/images/techStack/aws.png"
+    imgPath: "/images/techStack/aws.png",
   },
   spacy: {
     link: "https://spacy.io",
     title: "Spacy",
-    imgPath: "/static/images/techStack/spacy.jpg"
+    imgPath: "/images/techStack/spacy.jpg",
   },
   box: {
     link: "https://box.com",
     title: "Box",
-    imgPath: "/static/images/techStack/box.jpg"
+    imgPath: "/images/techStack/box.jpg",
   },
   yargs: {
     link: "http://yargs.js.org",
     title: "Yargs",
-    imgPath: "/static/images/techStack/yargs.png"
+    imgPath: "/images/techStack/yargs.png",
   },
   next: {
     link: "https://nextjs.org",
     title: "NextJS",
-    imgPath: "/static/images/techStack/next.png"
+    imgPath: "/images/techStack/next.png",
   },
   express: {
     link: "https://expressjs.com",
     title: "ExpressJS",
-    imgPath: "/static/images/techStack/express.png"
+    imgPath: "/images/techStack/express.png",
   },
   mapbox: {
     link: "https://www.mapbox.com",
     title: "Mapbox",
-    imgPath: "/static/images/techStack/mapbox.png"
+    imgPath: "/images/techStack/mapbox.png",
   },
 };
 
@@ -135,7 +135,7 @@ const ProjectTechStack = ({ techStack }) =>
           </div>
         </Row>
         <div className="center" style={{ margin: "auto" }}>
-          {techStack.map(tech => (
+          {techStack.map((tech) => (
             <Col md="2" xs="6">
               <Card className="border-0">
                 <Link href={techStackMasterList[tech].link}>

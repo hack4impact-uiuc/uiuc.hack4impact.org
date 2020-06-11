@@ -1,14 +1,13 @@
 import React from "react";
-import Interview from "../static/icons/interview.svg";
-import Calendar from "../static/icons/calendar.svg";
+import Interview from "/icons/interview.svg";
+import Calendar from "/icons/calendar.svg";
 import ActionButton from "../components/actionButton";
-import Contract from "../static/icons/contract.svg";
-import Education from "../static/icons/education.svg";
+import Contract from "/icons/contract.svg";
+import Education from "/icons/education.svg";
 
 // constants that will affect links in the student application page
-// NOTE: This is the product designer application from sp20 semester. 
-const applicationLink =
-  "https://forms.gle/AUrm29Zy29oBDAgF6";
+// NOTE: This is the product designer application from sp20 semester.
+const applicationLink = "https://forms.gle/AUrm29Zy29oBDAgF6";
 
 // current stuff
 const currentSemester = "Spring 2020";
@@ -29,7 +28,7 @@ const quote = {
   text:
     "A lot of classwork is theoretical. You’re given a contrived problem, and then you solve it. At Hack4Impact, you get to build a product from the ground up. Being exposed to building something from scratch is a great experience as a student.",
   source: "Alex Wu",
-  sourceTitle: "'16"
+  sourceTitle: "'16",
 };
 
 const faq = [
@@ -51,13 +50,13 @@ const faq = [
           mentorship and social community events{" "}
         </p>
       </>
-    )
+    ),
   },
   {
     question:
       "Is extensive web development or data science experience required?",
     answer:
-      "Nope! Mentorship is a core value of our organization so we are always looking to take less experienced developers as long as you are willing to put in the time and have the passion to learn. You will have a tight feedback loop with your project leads along with experienced members on your team to ensure your success and project’s success in-order to benefit the nonprofit your team is working with."
+      "Nope! Mentorship is a core value of our organization so we are always looking to take less experienced developers as long as you are willing to put in the time and have the passion to learn. You will have a tight feedback loop with your project leads along with experienced members on your team to ensure your success and project’s success in-order to benefit the nonprofit your team is working with.",
   },
   {
     question: "Why don't you accept more students?",
@@ -96,7 +95,7 @@ const faq = [
         Leads to take on more projects but maintain the high quality work we are
         know for.
       </>
-    )
+    ),
   },
   {
     question:
@@ -117,8 +116,8 @@ const faq = [
         </a>
         .
       </>
-    )
-  }
+    ),
+  },
 ];
 
 const applicationDetail = "";
@@ -159,20 +158,21 @@ const studentProcess = [
     detail: (
       <>
         <p>
-          Fill out our online application! To give yourself the best shot, be sure
-          to start early and fill this out as soon as possible.
+          Fill out our online application! To give yourself the best shot, be
+          sure to start early and fill this out as soon as possible.
         </p>
-        before {applicationDueTime} on{" "}
-          <b>{applicationDueDate}</b>
-        {<ActionButton
-          style={{ display: "block", marginTop: "10px" }}
-          text="Apply Now"
-          link={applicationLink}
-        />}
+        before {applicationDueTime} on <b>{applicationDueDate}</b>
+        {
+          <ActionButton
+            style={{ display: "block", marginTop: "10px" }}
+            text="Apply Now"
+            link={applicationLink}
+          />
+        }
       </>
     ),
     icon: <Contract />,
-    date: `${applicationDueDate} ${applicationDueTime}`
+    date: `${applicationDueDate} ${applicationDueTime}`,
   },
   // {
   //   title: "First Round Interviews",
@@ -200,21 +200,31 @@ const studentProcess = [
     detail:
       "A small, take home project designed to expose you to the tasks and technologies you will encounter while working with your project teams. More instructions will be provided then.",
     icon: <Contract />,
-    date: takeHomeExerciseDate
+    date: takeHomeExerciseDate,
   },
   {
     title: "Interviews",
     detail:
       "Hack4Impact looks for students who are hungry to learn, excellent teammates, and are passionate for tech and social impact. Our interviews will be 1 hour long and you will get meet a couple of our members.",
     icon: <Interview />,
-    date: firstRoundInterviewDate
-  }
+    date: firstRoundInterviewDate,
+  },
 ];
 
 const closedText = (
   <p>
-    <b><em>Our current application period for {currentSemester} is currently open.</em></b> We are <b><em>only accepting Product Designers</em></b> for the Spring semester.
-    For those that are interested in software development, stop by our website in the future to view updated information about the next application period!
+    <b>
+      <em>
+        Our current application period for {currentSemester} is currently open.
+      </em>
+    </b>{" "}
+    We are{" "}
+    <b>
+      <em>only accepting Product Designers</em>
+    </b>{" "}
+    for the Spring semester. For those that are interested in software
+    development, stop by our website in the future to view updated information
+    about the next application period!
   </p>
 );
 export default {
@@ -225,5 +235,5 @@ export default {
   faq,
   studentProcess,
   closedText,
-  applicationDetail
+  applicationDetail,
 };

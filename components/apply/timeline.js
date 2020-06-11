@@ -1,18 +1,18 @@
 import React from "react"; //required for some reason...
 import { Container } from "reactstrap";
 import Section from "../section";
-import Contract from "../../static/icons/contract.svg";
-import Interview from "../../static/icons/interview.svg";
+import Contract from "/icons/contract.svg";
+import Interview from "/icons/interview.svg";
 import {
   VerticalTimeline,
-  VerticalTimelineElement
+  VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 
 const Timeline = ({ processes }) => (
   <>
     <VerticalTimeline>
       {processes !== undefined &&
-        processes.map(process => (
+        processes.map((process) => (
           <VerticalTimelineElement
             className="vertical-timeline-element-work"
             date={process.date}

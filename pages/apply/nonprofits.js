@@ -12,7 +12,9 @@ import Nav from "../../components/nav";
 import data from "../../data/ngoApplyData";
 import Footer from "../../components/footer";
 
-import { initializeGA, logPage } from "../../components/Analytics"
+import { initializeGA, logPage } from "../../components/Analytics";
+
+import "react-vertical.min.css";
 
 // TODO: ADD `closed` prop to ApplicationProcess to add text about applications being closed!
 class NonProfits extends Component {
@@ -22,8 +24,8 @@ class NonProfits extends Component {
   }
 
   componentDidMount() {
-    initializeGA()
-    logPage()
+    initializeGA();
+    logPage();
   }
 
   render() {
@@ -56,7 +58,7 @@ class NonProfits extends Component {
         <FAQ questions={data.faq} />
         <Footer />
       </div>
-    )
+    );
   }
 }
 
