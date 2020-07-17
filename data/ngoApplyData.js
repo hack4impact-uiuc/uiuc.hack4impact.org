@@ -57,10 +57,12 @@ export default {
       title: "Initial Contact",
       detail: (
         <>
-          Reach out to our team via <a href="mailto:uiuc@hack4impact.org">email</a> to 
-          get started with the application process. We'd love to hear more about your organization 
-          and potential project ideas as it will help us get an initial sense of your organization's goals, 
-          needs, and expectations while you progress through the application process.
+          Reach out to our team via{" "}
+          <a href="mailto:uiuc@hack4impact.org">email</a> to get started with
+          the application process. We'd love to hear more about your
+          organization and potential project ideas as it will help us get an
+          initial sense of your organization's goals, needs, and expectations
+          while you progress through the application process.
         </>
       ),
       icon: <Contract />
