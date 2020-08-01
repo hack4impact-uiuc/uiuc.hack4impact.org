@@ -281,7 +281,7 @@ const studentProcess = [
 const closedText = (
   <p>
     Our application period for {currentSemester} <b><em>will open soon. </em></b> We will be accepting 
-    <b> Academy Members, Software Developers and a Product Designer</b> for the
+    <b> Academy Members, Software Developers and Product Designers</b> for the
     Fall semester. Our recruitment process will include an Info Session within
     the first week of school, an application, and interviews in the weeks to
     follow. The following timeline will be updated in the following weeks to
