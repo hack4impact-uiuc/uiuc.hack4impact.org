@@ -15,7 +15,7 @@ export default () => (
           <img
             width="150"
             height="150"
-            src="/static/images/imc-logo.jpg"
+            src="/images/imc-logo.jpg"
             className="center partner-logos"
           />
         </Col>
@@ -23,7 +23,7 @@ export default () => (
           <img
             width="150"
             height="150"
-            src="/static/images/fb-logo.svg"
+            src="/images/fb-logo.svg"
             className="center partner-logos"
           />
         </Col>

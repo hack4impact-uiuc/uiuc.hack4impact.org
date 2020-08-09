@@ -31,10 +31,7 @@ class ApplyPage extends Component {
               <Col md="6" className="text-center">
                 <Link href="https://h4i-project-timeline.now.sh/">
                   <a>
-                    <img
-                      src="/static/images/timeline.jpg"
-                      className="img-fluid"
-                    />
+                    <img src="/images/timeline.jpg" className="img-fluid" />
                   </a>
                 </Link>
               </Col>

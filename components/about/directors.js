@@ -43,7 +43,7 @@ export default ({ directors }) => (
                       <img
                         width="12"
                         className="linkedin-icon pb-1"
-                        src="/static/icons/linkedin.svg"
+                        src="/icons/linkedin.svg"
                       />
                     </a>
                   ) : null}
