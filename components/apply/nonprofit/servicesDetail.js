@@ -50,10 +50,6 @@ export default () => (
           </p>
         </div>
       </Row>
-
-      <Row>
-        <ActionLink text="Our Previous Work" link="/projects" />
-      </Row>
     </Container>
   </Section>
 );
