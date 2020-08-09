@@ -67,49 +67,51 @@ const clients = [
     link: "/projects?name=pi",
   },
 ];
-export default () => (
-  <Row>
-    <div className="showcase-container">
-      <BackgroundSlider duration={40}>
-        <div className="client-logo-container">
-          {clients.map((client) => (
-            <div key={client.name}>
-              <Link href={client.link}>
-                <a>
-                  <img
-                    width={client.width}
-                    height={client.height}
-                    src={client.logoPath}
-                  />
-                </a>
-              </Link>
-            </div>
-          ))}
-        </div>
-      </BackgroundSlider>
-    </div>
-    <style jsx>{`
-      .showcase-container {
-        margin-bottom: 40px;
-        overflow: hidden;
-        width: 100%;
-      }
-      .client-logo-container {
-        white-space: nowrap;
-        overflow: hidden;
-      }
-      .client-logo-container > div {
-        display: inline-block;
-        padding: 0 50px;
-        vertical-align: middle;
-        opacity: 0.25;
-        outline: none;
-        cursor: default;
-        transition: opacity 0.2s ease;
-      }
-      .client-logo-container > div:hover {
-        opacity: 0.8;
-      }
-    `}</style>
-  </Row>
-);
+export default function ClientSider() {
+  return (
+    <Row>
+      <div className="showcase-container">
+        <BackgroundSlider duration={40}>
+          <div className="client-logo-container">
+            {clients.map((client) => (
+              <div key={client.name}>
+                <Link href={client.link}>
+                  <a>
+                    <img
+                      width={client.width}
+                      height={client.height}
+                      src={client.logoPath}
+                    />
+                  </a>
+                </Link>
+              </div>
+            ))}
+          </div>
+        </BackgroundSlider>
+      </div>
+      <style jsx>{`
+        .showcase-container {
+          margin-bottom: 40px;
+          overflow: hidden;
+          width: 100%;
+        }
+        .client-logo-container {
+          white-space: nowrap;
+          overflow: hidden;
+        }
+        .client-logo-container > div {
+          display: inline-block;
+          padding: 0 50px;
+          vertical-align: middle;
+          opacity: 0.25;
+          outline: none;
+          cursor: default;
+          transition: opacity 0.2s ease;
+        }
+        .client-logo-container > div:hover {
+          opacity: 0.8;
+        }
+      `}</style>
+    </Row>
+  );
+}

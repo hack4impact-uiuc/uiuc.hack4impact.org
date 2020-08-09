@@ -17,9 +17,9 @@ export default function ProjectBanner({
           <Row>
             <Col md="12">
               <h1 className="project-title mb-4">
-                <Link href={clientLink}>
-                  <a className="section-title-link">{title}</a>
-                </Link>
+                <a href={clientLink} className="section-title-link">
+                  {title}
+                </a>
               </h1>
             </Col>
           </Row>
