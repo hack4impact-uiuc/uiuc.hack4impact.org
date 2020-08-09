@@ -60,15 +60,13 @@ export default () => (
           <div className="client-logo-container">
             {clients.map((client) => (
               <div key={client.name}>
-                <Link href={client.link}>
-                  <a target="_blank">
-                    <img
-                      width={client.width}
-                      height={client.height}
-                      src={client.logoPath}
-                    />
-                  </a>
-                </Link>
+                <a href={client.link} target="_blank">
+                  <img
+                    width={client.width}
+                    height={client.height}
+                    src={client.logoPath}
+                  />
+                </a>
               </div>
             ))}
           </div>

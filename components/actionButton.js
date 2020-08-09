@@ -1,23 +1,25 @@
 import Link from "next/link";
 
+const getAnchor = (link, onClick, style, white, text) => (
+  <a href={link}>
+    <button
+      style={style}
+      className={white ? "white-button styled-btn" : "action-button styled-btn"}
+      onClick={onClick === undefined && link !== undefined ? null : onClick}
+    >
+      {text}
+    </button>
+  </a>
+);
+
 const ActionButton = ({ link, text, style, white, onClick }) => (
   <>
     {link !== undefined ? (
-      <Link href={link}>
-        <a href={link}>
-          <button
-            style={style}
-            className={
-              white ? "white-button styled-btn" : "action-button styled-btn"
-            }
-            onClick={
-              onClick === undefined && link !== undefined ? null : onClick
-            }
-          >
-            {text}
-          </button>
-        </a>
-      </Link>
+      link.startsWith("/") ? (
+        <Link href={link}>{getAnchor(link, onClick, style, white, text)}</Link>
+      ) : (
+        getAnchor(link, onClick, style, white, text)
+      )
     ) : (
       <button
         style={style}
