@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "reactstrap";
 import Link from "next/link";
-import { Spring, Trail } from "react-spring";
+import { Spring, Trail } from "react-spring/renderprops.cjs";
 import Section from "../section";
 import ProjectContainer from "../projectContainer";
 import ActionLink from "../actionLink";
