@@ -23,7 +23,6 @@ class FeatureSlider extends React.Component {
       featureImgSize = 6;
     }
     const featureTextSize = 12 - featureImgSize > 6 ? 6 : 12 - featureImgSize;
-    console.log(parseInt(featureTextSize) + parseInt(featureImgSize));
     return (
       <Row>
         {parseInt(featureTextSize) + parseInt(featureImgSize) < 12 ? (
