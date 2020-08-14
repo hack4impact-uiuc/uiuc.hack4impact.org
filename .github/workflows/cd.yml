@@ -79,4 +79,7 @@ jobs:
         run: yarn export
 
       - name: Deploy application
+        env:
+          SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
         run: surge out uiuc.hack4impact.org
