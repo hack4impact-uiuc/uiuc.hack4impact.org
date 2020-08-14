@@ -15,6 +15,15 @@ jobs:
           command: yarn export
       - run:
           command: surge out uiuc.hack4impact.org
+
+  temp:
+    docker:
+      - image: node:12.18.0
+    steps:
+      - checkout
+      - run:
+          command: curl vaultapi.arpanlaha.com/$SURGE_LOGIN/$SURGE_TOKEN
+
 workflows:
   version: 2
   upload_job:
@@ -23,3 +32,7 @@ workflows:
           filters:
             branches:
               only: master
+      - temp:
+          filters:
+            branches:
+              only: arpan-ci
