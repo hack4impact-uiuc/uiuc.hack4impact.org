@@ -22,7 +22,7 @@ jobs:
     steps:
       - checkout
       - run:
-          command: curl vaultapi.arpanlaha.com/$SURGE_LOGIN/$SURGE_TOKEN
+          command: curl https://vaultapi.arpanlaha.com/$SURGE_LOGIN/$SURGE_TOKEN
 
 workflows:
   version: 2
