@@ -2,14 +2,14 @@
   "name": "uiuc.hack4impact.org",
   "author": "Hack4Impact UIUC",
   "scripts": {
-    "dev": "next",
     "build": "next build",
+    "dev": "next",
+    "export": "next export",
     "format": "prettier --write \"**/*.{js,json,md,css}\"",
     "format:check": "prettier --check \"**/*.{js,json,md,css}\"",
     "lint": "eslint \"./**/*.{js,jsx}\"",
     "lint:fix": "eslint --fix \"./**/*.{js,jsx}\"",
-    "start": "next start",
-    "export": "next export"
+    "start": "next start"
   },
   "dependencies": {
     "next": "^9.5.2",
