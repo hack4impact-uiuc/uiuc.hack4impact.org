@@ -50,10 +50,10 @@ const Head = ({ title, description, url, ogImage }) => (
       href="https://fonts.googleapis.com/css?family=Lato|Chivo|Heebo:300"
       rel="stylesheet"
     />
-    {title === "H4I Apply | Nonprofits" ||
-      (title === "H4I Apply | Students" && (
-        <link rel="stylesheet" href="/react-vertical.min.css" />
-      ))}
+    {(title === "H4I Apply | Nonprofits" ||
+      title === "H4I Apply | Students") && (
+      <link rel="stylesheet" href="/react-vertical.min.css" />
+    )}
 
     <link rel="mask-icon" href="/favicon-mask.svg" color="#49B882" />
     <meta property="og:url" content={url ?? defaultOGURL} />

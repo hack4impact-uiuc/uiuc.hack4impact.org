@@ -14,7 +14,6 @@ const Timeline = ({ processes }) => (
             date={process.date}
             iconStyle={{ background: "#155DA1", color: "#fff" }}
             icon={process.icon}
-            key={process.title}
           >
             <h3 className="vertical-timeline-element-title">{process.title}</h3>
             <p>{process.detail}</p>
