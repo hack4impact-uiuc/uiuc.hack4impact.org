@@ -15,7 +15,10 @@ export default function NavigationBar({ navType }) {
   const [collapsed, setCollapsed] = useState(true);
 
   useEffect(() => {
-    document.addEventListener("scroll", () => setIsTop(window.scrollY < 100));
+    const onScroll = () => setIsTop(window.scrollY < 100);
+    document.addEventListener("scroll", onScroll);
+
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   const toggleNavbar = () => setCollapsed(!collapsed);
