@@ -36,7 +36,7 @@ export default function NavigationBar({ navType }) {
             id="logo-img"
             height="35"
             width="200"
-            src="/images/colored-logo.png"
+            src="/images/colored-logo.svg"
             alt="Hack4Impact UIUC logo"
           />
         </NavbarBrand>
