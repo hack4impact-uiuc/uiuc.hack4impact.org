@@ -1,0 +1,1 @@
+convert -- "client_logos/nnblogo.png" "-resize" "500x100" "client_logos/nnblogo.png"
