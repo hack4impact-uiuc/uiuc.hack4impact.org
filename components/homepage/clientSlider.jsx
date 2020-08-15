@@ -5,6 +5,20 @@ import Link from "next/link";
 
 const clients = [
   {
+    name: "CommunityConnect Labs",
+    width: 218,
+    height: 48,
+    logoPath: "/images/client_logos/ccllogo.svg",
+    link: "/projects/ccl",
+  },
+  {
+    name: "Life After Hate",
+    width: 227,
+    height: 31,
+    logoPath: "/images/client_logos/lahlogo.png",
+    link: "/projects/lah",
+  },
+  {
     name: "lwb",
     width: 250,
     height: 55,
@@ -25,6 +39,7 @@ const clients = [
     logoPath: "/images/client_logos/kivalogo.png",
     link: "/projects/kiva-1",
   },
+
   {
     name: "philidelphia reads",
     width: 135,
