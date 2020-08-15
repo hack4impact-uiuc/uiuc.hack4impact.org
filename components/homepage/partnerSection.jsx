@@ -17,7 +17,7 @@ export default function PartnerSection() {
             <img
               width="150"
               height="150"
-              src="/images/imc-logo.jpg"
+              src="/images/imc-logo.svg"
               className="center partner-logos"
               alt="IMC logo"
             />
