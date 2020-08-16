@@ -65,18 +65,37 @@ const githubLink =
   "https=//github.com/hack4impact-uiuc/love-without-boundaries";
 const projectLink = "http=//cambodia.lovewithoutboundaries.com";
 const team = {
-  type: "no-pic",
-  detail: {
-    pm: "Timothy Ko",
-    tl: "Aria Malkani",
-    swe: [
-      "Shreyas Mohan",
-      "Hana Riwani",
-      "Alan Ren",
-      "Michael Chen",
-      "Teja Kotha",
-    ],
-  },
+  type: "pics",
+  detail: [
+    {
+      name: "Timothy Ko",
+      role: "Product Manager",
+    },
+    {
+      name: "Aria Malkani",
+      role: "Tech Lead",
+    },
+    {
+      name: "Shreyas Mohan",
+      role: "Software Developer",
+    },
+    {
+      name: "Hana Rimawi",
+      role: "Software Developer",
+    },
+    {
+      name: "Alan Ren",
+      role: "Software Developer",
+    },
+    {
+      name: "Michael Chen",
+      role: "Software Developer",
+    },
+    {
+      name: "Teja Kotha",
+      role: "Software Developer",
+    },
+  ],
 };
 
 export default {
