@@ -3,7 +3,7 @@ const name = "Life After Hate";
 const id = "lah";
 const detail =
   "How might we build a centralized platform that allows for more efficient lookup and storage of ExitUSA™ program resources?";
-const coverImagePath = "/images/projects/lah/cover.jpeg";
+const coverImagePath = "/images/projects/lah/cover.jpg";
 const clientDetail =
   "Founded and run by former hate group members who have led successful post-movement lives, ExitUSA™ provides support to individuals who are looking to leave racism and violence behind. The organization uses a variety of strategies, including public awareness campaigns, individualized education and job training programs, and leveraging strategic community partnerships to help individuals get their lives back on track and on their way to making positive contributions to society.";
 const clientLink = "https://www.lifeafterhate.org";
