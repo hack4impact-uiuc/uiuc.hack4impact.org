@@ -9,21 +9,21 @@ const items = [
   <ProjectContainer
     title="Kiva"
     subtitle="How might we expedite the reporting process with a single portal where users can see which documents need to be uploaded and track their progress?"
-    image="url('/images/projects/kiva-2/kiva2-thumbnail copy.png')"
+    image="url('/images/projects/kiva-2/kiva2-thumbnail copy.jpg')"
     link="/projects/kiva-2"
     key="Kiva"
   />,
   <ProjectContainer
     title="SafeMaps"
     subtitle="How might we make students feel safer on campus?"
-    image="url('/images/projects/safemaps/sm-safemaps-cover.png')"
+    image="url('/images/projects/safemaps/sm-safemaps-cover.jpg')"
     link="/projects/safemaps"
     key="SafeMaps"
   />,
   <ProjectContainer
     title="GlobalGiving"
     subtitle="How might we expand GlobalGiving’s impact and reach on domestic and international nonprofits?"
-    image="url('/images/projects/gg-2/gg2-thumbnail.png')"
+    image="url('/images/projects/gg-2/gg2-thumbnail.jpg')"
     link="/projects/gg-2"
     key="GlobalGiving"
   />,

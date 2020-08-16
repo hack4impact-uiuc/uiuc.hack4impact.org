@@ -66,3 +66,6 @@ projects/sp20/saverlife/saverlife-problem.png
 projects/sp20/saverlife/saverlife-solution.png
 projects/sp20/ymca/ymca-edit-home.png
 projects/sp20/ymca/ymca-save-resources.png
+
+
+mli picture, yargs, express, next, academy, ramda, passport, mapbox, redux saga, draftjs, firebase, infra auth
