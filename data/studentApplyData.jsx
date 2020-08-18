@@ -15,7 +15,7 @@ const currentSemester = "Fall 2020";
 //const nextSemester = "Spring 2021";
  
 // dates
-const infoSessionDate = "Thursday, August 27"; //Thu Aug 27, 2020 6-7PM
+const infoSessionDate = "Thursday, August 27  6-7 PM CST"; //Thu Aug 27, 2020 6-7PM
 const applicationDueDate = "Sunday, August 30"; //Sun Aug 20, 2020 
 const applicationDueTime = "12:00 PM CST"; //12:00 PM
 const firstRoundInterviewDate = "Wednesday, September 2"; //Wed Sept 2, 2020
@@ -204,18 +204,17 @@ non-binding and you can ask to be removed at any time.
         <p>
           Be sure to come out to our Info Session to get an idea of who we are,
           what we do, and the impact Hack4Impact has. For our virtual recruitment,
-          this will be done as a Facebook Livestream! Our event page will be posted
-          here shortly.
+          this will be in the form of a Facebook Livestream!
         </p>
         <p>
           <b className="pt-2"></b>
         </p>
-        {/* <p>
-          More details at our{" "}
-          <a href="https://www.facebook.com/events/783414215343789">
-            Facebook Event!
-          </a>{" "}
-        </p> */}
+        <p>
+          Keep an eye on our{" "}
+          <a href="https://www.facebook.com/h4iuiuc">
+            Facebook page
+          </a>{""} for when we go live!
+        </p>
       </>
     ),
     icon: <Contract />,
