@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useRouter } from "next/router";
 import Head from "../../components/head";
 import Nav from "../../components/nav";
@@ -6,17 +6,11 @@ import SpecificProjectPage from "../../components/projects/specificProjectPage";
 import ErrorMessage from "../../components/errorMessage";
 import Footer from "../../components/footer";
 import projectData from "../../data/projectData";
-import { initializeGA, logPage } from "../../components/Analytics";
 
 export default function Projects() {
   const {
     query: { projectId },
   } = useRouter();
-
-  useEffect(() => {
-    initializeGA();
-    logPage();
-  }, []);
 
   // return project List (regular project Page) if not query (just /projets)
 
