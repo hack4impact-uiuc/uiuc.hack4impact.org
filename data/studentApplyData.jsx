@@ -15,7 +15,7 @@ const currentSemester = "Fall 2020";
 // dates
 const infoSessionDate = "Thursday, August 27  6-7 PM CDT"; //Thu Aug 27, 2020 6-7PM
 const applicationDueDate = "Due Sunday, August 30"; //Sun Aug 20, 2020
-const applicationDueTime = "12:00 PM CST"; //12:00 PM
+const applicationDueTime = "12:00 PM CDT"; //12:00 PM
 const firstRoundInterviewDate =
   "Wednesday, September 2 - Thursday, September 3"; //Wed-Thu Sept 2-3, 2020
 const secondRoundInterviewDate = "Monday, September 7 - Wednesday, September 9"; //Mon-Wed Sept 7-9, 2020
