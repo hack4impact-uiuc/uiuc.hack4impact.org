@@ -14,6 +14,8 @@ const currentSemester = "Fall 2020";
 
 // dates
 const infoSessionDate = "Thursday, August 27  6-7 PM CDT"; //Thu Aug 27, 2020 6-7PM
+const applicationReleaseDate = "Opens Monday, August 24";
+const applicationReleaseTime = "12:00 AM CDT";
 const applicationDueDate = "Due Sunday, August 30"; //Sun Aug 20, 2020
 const applicationDueTime = "12:00 PM CDT"; //12:00 PM
 const firstRoundInterviewDate =
@@ -63,7 +65,7 @@ const faq = [
     answer: (
       <>
         <p>
-          <i>Team:</i> Work on a team of 4-7 students led by a PM and tech lead{" "}
+          <i>Team:</i> Work on a team of 6-8 students led by a PM and tech lead{" "}
         </p>
         <p>
           <i>Build: </i> Develop the product throughout the semester (~12 weeks){" "}
@@ -197,6 +199,17 @@ const studentProcess = [
     icon: <Interview />,
   },
   {
+    title: "Application Released",
+    detail: (
+      <p>
+        Applications will be released at midnight on August 24th! Stay tuned for
+        the link.
+      </p>
+    ),
+    icon: <Contract />,
+    date: `${applicationReleaseDate} ${applicationReleaseTime}`,
+  },
+  {
     title: (
       <>
         {/* <a href="https://www.facebook.com/events/783414215343789">
@@ -226,14 +239,12 @@ const studentProcess = [
     date: infoSessionDate,
   },
   {
-    title: "Applications",
+    title: "Application Due",
     detail: (
-      <>
-        <p>
-          Applications will be released after our Info Session and will be due
-          three days after! Stay tuned for the link.
-        </p>
-      </>
+      <p>
+        Applications will be due three days after info session! Stay tuned for
+        the link.
+      </p>
     ),
     icon: <Contract />,
     date: `${applicationDueDate} ${applicationDueTime}`,
