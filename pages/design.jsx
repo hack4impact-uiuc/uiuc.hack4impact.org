@@ -1,12 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 
-class Design extends React.Component {
-  componentDidMount() {
+export default function Design() {
+  useEffect(() => {
     window.location.href = "https://bridge-ui.now.sh";
-  }
-  render() {
-    return <></>;
-  }
-}
+  }, []);
 
-export default Design;
+  return <></>;
+}

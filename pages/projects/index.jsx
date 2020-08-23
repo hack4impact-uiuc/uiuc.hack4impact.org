@@ -1,19 +1,12 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Head from "../../components/head";
 import Nav from "../../components/nav";
 import GradientBanner from "../../components/gradientBanner";
 import ProjectList from "../../components/projects/projectList";
 import ProjectExplore from "../../components/projects/projectExplore";
 import Footer from "../../components/footer";
-import { initializeGA, logPage } from "../../components/Analytics";
 
 export default function Projects() {
-  useEffect(() => {
-    initializeGA();
-    logPage();
-  }, []);
-
-  // return project List (regular project Page) if not query (just /projets)
   return (
     <div>
       <Head title="Hack4Impact Projects" />
