@@ -35,32 +35,6 @@ const quote = {
 
 const faq = [
   {
-    question: "Is Hack4Impact still recruiting for Fall 2020?",
-    answer: (
-      <>
-        Yes! Here is a rough schedule of our Fall 2020 Recruitment events:
-        <br />
-        <br />
-        <ul>
-          <li>August Week 4: Info Session + Applications </li>
-          <li>September Week 1: 1st Round Behavioral Interview</li>
-          <li>September Week 2: 2nd Round Technical Interview</li>
-        </ul>
-        Specific dates and other information will be released leading up to
-        these events!
-      </>
-    ),
-  },
-  {
-    question: "I will not be on campus this Fall. Can I still apply?",
-    answer: (
-      <>
-        Yes! Recruitment will be entirely virtual for this semester. Applicants
-        are welcome regardless of whether you are living on campus or not.
-      </>
-    ),
-  },
-  {
     question: "What is the general premise of Hack4Impact?",
     answer: (
       <>
