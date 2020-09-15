@@ -3,15 +3,15 @@ import Interview from "../public/icons/interview.svg";
 import ActionButton from "../components/actionButton";
 import Contract from "../public/icons/contract.svg";
 //import Education from "../public/icons/education.svg";
-
+ 
 // constants that will affect links in the student application page
 const applicationLink = "https://forms.gle/4USp6UsfcJzNqfz58";
 const interestLink = "https://forms.gle/wDzKo1KiV3Qq86uN9"; //fa20
-
+ 
 // current stuff
 const currentSemester = "Fall 2020";
 //const nextSemester = "Spring 2021";
-
+ 
 // dates
 const infoSessionDate = "Thursday, August 27  6:00-7:00 PM CDT"; //Thu Aug 27, 2020 6-7PM
 const applicationReleaseDate = "Opens Monday, August 24";
@@ -23,24 +23,23 @@ const firstRoundInterviewDate =
 const secondRoundInterviewDate = "Monday, September 7 - Wednesday, September 9"; //Mon-Wed Sept 7-9, 2020
 const socialRoundDate = "Saturday, September 12"; //Sat Sept 12, 2020
 const takeHomeExerciseDate = "Due Sunday, September 13"; //Sun Sept 13, 2020
-
+ 
 const subHeadline =
   "Students are a core part of what makes Hack4Impact. Joining Hack4Impact is the perfect way to give back while developing new skills and making long-lasting friendships.";
 const quote = {
   text:
     "A lot of classwork is theoretical. You’re given a contrived problem, and then you solve it. At Hack4Impact, you get to build a product from the ground up. Being exposed to building something from scratch is a great experience as a student.",
   source: "Alex Wu",
-  sourceTitle: "'16",
+  sourceTitle: "'16"
 };
-
+ 
 const faq = [
   {
     question: "Is Hack4Impact still recruiting for Fall 2020?",
     answer: (
       <>
         Yes! Here is a rough schedule of our Fall 2020 Recruitment events:
-        <br />
-        <br />
+        <br /><br />
         <ul>
           <li>August Week 4: Info Session + Applications </li>
           <li>September Week 1: 1st Round Behavioral Interview</li>
@@ -49,7 +48,7 @@ const faq = [
         Specific dates and other information will be released leading up to
         these events!
       </>
-    ),
+    )
   },
   {
     question: "I will not be on campus this Fall. Can I still apply?",
@@ -58,7 +57,7 @@ const faq = [
         Yes! Recruitment will be entirely virtual for this semester. Applicants
         are welcome regardless of whether you are living on campus or not.
       </>
-    ),
+    )
   },
   {
     question: "What is the general premise of Hack4Impact?",
@@ -78,13 +77,13 @@ const faq = [
           mentorship and social community events{" "}
         </p>
       </>
-    ),
+    )
   },
   {
     question:
       "Is extensive web development or data science experience required?",
     answer:
-      "Nope! Mentorship is a core value of our organization so we are always looking to take less experienced developers as long as you are willing to put in the time and have the passion to learn. You will have a tight feedback loop with your project leads along with experienced members on your team to ensure your success and project’s success in-order to benefit the nonprofit your team is working with.",
+      "Nope! Mentorship is a core value of our organization so we are always looking to take less experienced developers as long as you are willing to put in the time and have the passion to learn. You will have a tight feedback loop with your project leads along with experienced members on your team to ensure your success and project’s success in-order to benefit the nonprofit your team is working with."
   },
   {
     question: "Why don't you accept more students?",
@@ -123,16 +122,20 @@ const faq = [
         Leads to take on more projects but maintain the high quality work we are
         know for.
       </>
-    ),
+    )
   },
   {
     question:
-      "What are you looking for in Software Developers and/or Product Designers?",
+      "What are you looking for in Academy Members, Software Developers and/or Product Designers?",
     answer: (
       <>
         We go a lot more in-depth in our role descriptions in our{" "}
         <a href="https://www.notion.so/h4iuiuc/Join-Hack4Impact-UIUC-2e875ce396b34e6ebb23c6dda57a89aa">
-          Official Notion page
+          Official Notion Page
+        </a>
+        . View{" "}
+        <a href="https://www.notion.so/h4iuiuc/Academy-Member-H4I-2261147c161f4ab39167692b951e626c">
+          Academy Member Role
         </a>
         . View{" "}
         <a href="https://www.notion.so/h4iuiuc/Software-Developer-H4I-11df54d29aba4399a940339e88b0e540">
@@ -144,182 +147,218 @@ const faq = [
         </a>
         .
       </>
-    ),
-  },
+    )
+  }
 ];
-
+ 
 const applicationDetail = "";
-
+ 
 const studentProcess = [
+  // {
+  //   title: "Interest Form",
+  //   detail: (
+  //     <>
+  //       <p>
+  //         Sign up below and we'll add you to a mailing list for Fall 2020
+  //         Recruitment updates! This is non-binding and you can ask to be removed
+  //         at any time.
+  //       </p>
+  //       {<ActionButton
+  //         style={{ display: "block", marginTop: "10px" }}
+  //         text="Sign Up"
+  //         link={interestLink}
+  //       />}
+  //     </>
+  //   ),
+  //   icon: <Contract />
+  // },
   {
-    title: "Interest Form",
+    title: "Want Updates?",
     detail: (
       <>
         <p>
-          Sign up below and we'll add you to a mailing list for Fall 2020
-          Recruitment updates! This is non-binding and you can ask to be removed
-          at any time.
+          Keep in touch with us by following our social media. You can find 
+          recruitment updates on these platforms in addition to our website.
         </p>
-        {
-          <ActionButton
-            style={{ display: "block", marginTop: "10px" }}
-            text="Sign Up"
-            link={interestLink}
-          />
-        }
+        {<ActionButton
+          style={{ display: "block", marginTop: "10px" }}
+          text="Facebook"
+          link={"https://www.facebook.com/h4iuiuc/"}
+        />}
+        {<ActionButton
+          style={{ display: "block", marginTop: "10px" }}
+          text="Instagram"
+          link={"https://www.instagram.com/hack4impactuiuc/"}
+        />}
       </>
     ),
-    icon: <Contract />,
+    icon: <Interview />
   },
-  {
-    title: "Follow Us",
-    detail: (
-      <>
-        <p>
-          Keep in touch with us by following our social media! We will be
-          posting recruitment updates as well as revealing the nonprofit
-          organizations we will be working with in Fall 2020.
-        </p>
-        {
-          <ActionButton
-            style={{ display: "block", marginTop: "10px" }}
-            text="Facebook"
-            link={"https://www.facebook.com/h4iuiuc/"}
-          />
-        }
-        {
-          <ActionButton
-            style={{ display: "block", marginTop: "10px" }}
-            text="Instagram"
-            link={"https://www.instagram.com/hack4impactuiuc/"}
-          />
-        }
-      </>
-    ),
-    icon: <Interview />,
-  },
-  {
-    title: "Application Released",
-    detail: (
-      <>
-        <p>Applications will be released at midnight on August 24th!</p>
-        <a href={applicationLink} target="_blank" rel="noopener noreferrer">
-          Link to application
-        </a>
-      </>
-    ),
-    icon: <Contract />,
-    date: `${applicationReleaseDate} ${applicationReleaseTime}`,
-  },
-  {
-    title: (
-      <>
-        {/* <a href="https://www.facebook.com/events/783414215343789">
-          Info Session
-        </a> */}
-        Info Session
-      </>
-    ),
-    detail: (
-      <>
-        <p>
-          Be sure to come out to our Info Session to get an idea of who we are,
-          what we do, and the impact Hack4Impact has. For our virtual
-          recruitment, this will be in the form of a Facebook Livestream!
-        </p>
-        <p>
-          <b className="pt-2"></b>
-        </p>
-        <p>
-          Keep an eye on our{" "}
-          <a href="https://www.facebook.com/h4iuiuc">Facebook page</a>
-          {""} for when we go live!
-        </p>
-      </>
-    ),
-    icon: <Contract />,
-    date: infoSessionDate,
-  },
-  {
-    title: "Application Due",
-    detail: (
-      <>
-        <p>Applications will be due three days after info session!</p>
-        <a href={applicationLink} target="_blank" rel="noopener noreferrer">
-          Link to application
-        </a>
-      </>
-    ),
-    icon: <Contract />,
-    date: `${applicationDueDate} ${applicationDueTime}`,
-  },
+  // {
+  //   title: (
+  //     <>
+  //       {/* <a href="https://www.facebook.com/events/783414215343789">
+  //         Info Session
+  //       </a> */}
+  //       Info Session
+  //     </>
+  //   ),
+  //   detail: (
+  //     <>
+  //       <p>
+  //         Be sure to come out to our Info Session to get an idea of who we are,
+  //         what we do, and the impact Hack4Impact has. For our virtual recruitment,
+  //         this will be done as a Facebook Livestream! Our event page will be posted
+  //         here shortly.
+  //       </p>
+  //       <p>
+  //         <b className="pt-2"></b>
+  //       </p>
+  //       {/* <p>
+  //         More details at our{" "}
+  //         <a href="https://www.facebook.com/events/783414215343789">
+  //           Facebook Event!
+  //         </a>{" "}
+  //       </p> */}
+  //     </>
+  //   ),
+  //   icon: <Contract />,
+  //   date: infoSessionDate
+  // },
   // {
   //   title: "Applications",
   //   detail: (
   //     <>
   //       <p>
-  //         Fill out our online application!
+  //         Applications will be released after our Info Session and will be due three days after! Stay tuned for the link.
   //       </p>
-  //       before {applicationDueTime} on{" "}
-  //         <b>{applicationDueDate}</b>
-  //       {<ActionButton
-  //         style={{ display: "block", marginTop: "10px" }}
-  //         text="Apply Now"
-  //         link={applicationLink}
-  //       />}
   //     </>
   //   ),
   //   icon: <Contract />,
   //   date: `${applicationDueDate} ${applicationDueTime}`
   // },
-  {
-    title: "First Round Interviews",
-    detail:
-      "Hack4Impact looks for students who are hungry to learn, excellent teammates, and are passionate for tech and social impact. Our first round interviews will give you an opportunity to answer some questions about yourself while also meeting some of our members.",
-    icon: <Interview />,
-    date: firstRoundInterviewDate,
-  },
-  {
-    title: "Second Round Interviews",
-    detail:
-      "This will be a short role-specific interview that is relevant to the position you are applying for. We encourage discussion throughout the interview and you’ll have an opportunity to ask questions to learn more about us.",
-    icon: <Interview />,
-    date: secondRoundInterviewDate,
-  },
-  {
-    title: "Social Round",
-    detail:
-      "Our Social Night will be a fun opportunity for us to get to know each other with a more casual atmosphere. Be your authentic self!",
-    icon: <Interview />,
-    date: socialRoundDate,
-  },
-  {
-    title: "Take Home Exercise",
-    detail:
-      "A small, take home project designed to expose you to the tasks and technologies you will encounter while working with your project teams. More instructions will be provided then.",
-    icon: <Contract />,
-    date: takeHomeExerciseDate,
-  },
   // {
-  //   title: "Interviews",
+  //   title: "Application Released",
+  //   detail: (
+  //     <>
+  //       <p>Applications will be released at midnight on August 24th!</p>
+  //       <a href={applicationLink} target="_blank" rel="noopener noreferrer">
+  //         Link to application
+  //       </a>
+  //     </>
+  //   ),
+  //   icon: <Contract />,
+  //   date: `${applicationReleaseDate} ${applicationReleaseTime}`,
+  // },
+  // {
+  //   title: (
+  //     <>
+  //       {/* <a href="https://www.facebook.com/events/783414215343789">
+  //         Info Session
+  //       </a> */}
+  //       Info Session
+  //     </>
+  //   ),
+  //   detail: (
+  //     <>
+  //       <p>
+  //         Be sure to come out to our Info Session to get an idea of who we are,
+  //         what we do, and the impact Hack4Impact has. For our virtual
+  //         recruitment, this will be in the form of a Facebook Livestream!
+  //       </p>
+  //       <p>
+  //         <b className="pt-2"></b>
+  //       </p>
+  //       <p>
+  //         Keep an eye on our{" "}
+  //         <a href="https://www.facebook.com/h4iuiuc/live">Facebook page</a>
+  //         {""} for when we go live!
+  //       </p>
+  //     </>
+  //   ),
+  //   icon: <Contract />,
+  //   date: infoSessionDate,
+  // },
+  // {
+  //   title: "Application Due",
+  //   detail: (
+  //     <>
+  //       <p>Applications will be due three days after info session!</p>
+  //       <a href={applicationLink} target="_blank" rel="noopener noreferrer">
+  //         Link to application
+  //       </a>
+  //     </>
+  //   ),
+  //   icon: <Contract />,
+  //   date: `${applicationDueDate} ${applicationDueTime}`,
+  // },
+  // // {
+  // //   title: "Applications",
+  // //   detail: (
+  // //     <>
+  // //       <p>
+  // //         Fill out our online application!
+  // //       </p>
+  // //       before {applicationDueTime} on{" "}
+  // //         <b>{applicationDueDate}</b>
+  // //       {<ActionButton
+  // //         style={{ display: "block", marginTop: "10px" }}
+  // //         text="Apply Now"
+  // //         link={applicationLink}
+  // //       />}
+  // //     </>
+  // //   ),
+  // //   icon: <Contract />,
+  // //   date: `${applicationDueDate} ${applicationDueTime}`
+  // // },
+  // {
+  //   title: "First Round Interviews",
   //   detail:
-  //     "Hack4Impact looks for students who are hungry to learn, excellent teammates, and are passionate for tech and social impact. Our interviews will be 1 hour long and you will get meet a couple of our members.",
+  //     "Hack4Impact looks for students who are hungry to learn, excellent teammates, and are passionate for tech and social impact. Our first round interviews will give you an opportunity to answer some questions about yourself while also meeting some of our members.",
   //   icon: <Interview />,
-  //   date: firstRoundInterviewDate
-  // }
+  //   date: firstRoundInterviewDate,
+  // },
+  // {
+  //   title: "Second Round Interviews",
+  //   detail:
+  //     "This will be a short role-specific interview that is relevant to the position you are applying for. We encourage discussion throughout the interview and you’ll have an opportunity to ask questions to learn more about us.",
+  //   icon: <Interview />,
+  //   date: secondRoundInterviewDate,
+  // },
+  // {
+  //   title: "Social Round",
+  //   detail:
+  //     "Our Social Night will be a fun opportunity for us to get to know each other with a more casual atmosphere. Be your authentic self!",
+  //   icon: <Interview />,
+  //   date: socialRoundDate,
+  // },
+  // {
+  //   title: "Take Home Exercise",
+  //   detail:
+  //     "A small, take home project designed to expose you to the tasks and technologies you will encounter while working with your project teams. More instructions will be provided then.",
+  //   icon: <Contract />,
+  //   date: takeHomeExerciseDate,
+  // },
+  // // {
+  // //   title: "Interviews",
+  // //   detail:
+  // //     "Hack4Impact looks for students who are hungry to learn, excellent teammates, and are passionate for tech and social impact. Our interviews will be 1 hour long and you will get meet a couple of our members.",
+  // //   icon: <Interview />,
+  // //   date: firstRoundInterviewDate
+  // // }
 ];
-
+ 
 const closedText = (
   <p>
-    Our application period for {currentSemester}{" "}
-    <b>
-      <em>is now open! </em>
-    </b>{" "}
-    We will be accepting
-    <b> Academy Members, Software Developers and Product Designers</b> for the
-    Fall semester. Our recruitment process will include an Info Session within
-    the first week of school, an application, and interviews in the weeks to
-    follow.
+    Our recruitment process has historically consisted of an Info Session and 
+    applications due in the first week of the semester and a behavioral interview, 
+    role-specific interview, and social round in the weeks to follow. Certain 
+    roles will also require a take home exercise to be completed. More information 
+    on roles and recruitment can be found on our 
+    {" "}<a href="https://www.notion.so/h4iuiuc/Join-Hack4Impact-UIUC-2e875ce396b34e6ebb23c6dda57a89aa">
+    official Notion page</a>.
+    <p></p>
+    Our application period for {currentSemester}{" "} <b> is now closed. </b>
   </p>
 );
 export default {
@@ -330,5 +369,6 @@ export default {
   faq,
   studentProcess,
   closedText,
-  applicationDetail,
+  applicationDetail
 };
+
