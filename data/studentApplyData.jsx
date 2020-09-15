@@ -1,12 +1,12 @@
 import React from "react";
 import Interview from "../public/icons/interview.svg";
 import ActionButton from "../components/actionButton";
-import Contract from "../public/icons/contract.svg";
+//import Contract from "../public/icons/contract.svg";
 //import Education from "../public/icons/education.svg";
 
 // constants that will affect links in the student application page
 const applicationLink = "https://forms.gle/4USp6UsfcJzNqfz58";
-const interestLink = "https://forms.gle/wDzKo1KiV3Qq86uN9"; //fa20
+//const interestLink = "https://forms.gle/wDzKo1KiV3Qq86uN9"; //fa20
 
 // current stuff
 const currentSemester = "Fall 2020";
