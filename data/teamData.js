@@ -241,7 +241,8 @@ export default {
     {
       name: "Luciana Toledo-López",
       role: "Software Developer",
-      linkedin: "https://www.linkedin.com/in/luciana-toledo-l%C3%B3pez-645556187/",
+      linkedin:
+        "https://www.linkedin.com/in/luciana-toledo-l%C3%B3pez-645556187/",
     },
     {
       name: "Nayonika Roy",
