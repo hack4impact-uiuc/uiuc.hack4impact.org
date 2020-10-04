@@ -159,7 +159,6 @@ export default {
     {
       name: "Lauren Ho",
       role: "Software Developer",
-      linkedin: null,
     },
     {
       name: "Gene Wang",
@@ -184,7 +183,6 @@ export default {
     {
       name: "Aditya Jain",
       role: "Academy Member",
-      linkedin: null,
     },
     {
       name: "Amit Sawhney",
@@ -224,7 +222,6 @@ export default {
     {
       name: "Ishaan Sharma",
       role: "Academy Member",
-      linkedin: null,
     },
     {
       name: "Jeffrey Tang",
