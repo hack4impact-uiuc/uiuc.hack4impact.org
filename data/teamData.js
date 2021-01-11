@@ -102,9 +102,9 @@ export default {
       linkedin: "https://www.linkedin.com/in/kelley-chau-838ab313b/",
     },
     {
-      name: "Anooj Lal",
+      name: "Neeraj Aggarwal",
       role: "Software Developer",
-      linkedin: "https://www.linkedin.com/in/anoojlal/",
+      linkedin: "https://www.linkedin.com/in/neeraj-aggarwal/",
     },
     {
       name: "Michael Chen",
@@ -301,11 +301,6 @@ export default {
       linkedin: "https://www.linkedin.com/in/alan-fang/",
     },
     {
-      name: "Neeraj Aggarwal",
-      role: "Product Manager",
-      linkedin: "https://www.linkedin.com/in/neeraj-aggarwal/",
-    },
-    {
       name: "David Wang",
       role: "Tech Lead",
       linkedin: "https://www.linkedin.com/in/davidew2/",
@@ -359,6 +354,11 @@ export default {
       name: "Chloe Chan",
       role: "Product Designer",
       linkedin: "https://www.linkedin.com/in/chloegchan/",
+    },
+    {
+      name: "Anooj Lal",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/anoojlal/",
     },
     {
       name: "Michael Leon",
