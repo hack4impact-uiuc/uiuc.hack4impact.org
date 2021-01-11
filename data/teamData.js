@@ -13,7 +13,7 @@ export default {
       quote:
         "Going into college, I knew that I wanted to make a positive impact on the world but I was unsure as to how or where to even start — nor how my technical skills and interests fit into that. Joining Hack4Impact really changed that for me. I have been granted the opportunity to engage with nonprofits and chapters worldwide in addition to being able to call Hack4Impact’s people some of my best friends. I hope to continue growing and spreading the mission of social impact technology, and I am so grateful to be here!",
       linkedin: "https://www.linkedin.com/in/tiffanytnduong/",
-    }
+    },
   ],
   team: [
     {
