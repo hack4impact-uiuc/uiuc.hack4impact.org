@@ -9,7 +9,7 @@ const chapters = [
     width: 125,
     height: 36,
     logoPath: "/images/chapters/upenn/upenn-logo.jpg",
-    link: "https://hack4impact.org",
+    link: "https://upenn.hack4impact.org/",
   },
   {
     name: "gt",
@@ -37,14 +37,14 @@ const chapters = [
     width: 75,
     height: 75,
     logoPath: "/images/chapters/cornell/cornell-logo.png",
-    link: "https://www.facebook.com/h4icornell/",
+    link: "https://www.cornellh4i.org/",
   },
   {
     name: "mcgill",
     width: 75,
     height: 75,
     logoPath: "/images/chapters/mcgill/mcgill-logo.png",
-    link: "https://www.facebook.com/hack4impactmcgill",
+    link: "https://hack4impact-mcgill.now.sh/",
   },
 ];
 export default function OtherChapters() {

@@ -1,19 +1,19 @@
 export default {
   directors: [
     {
-      name: "Annie Wu",
-      year: "'21",
-      quote:
-        "Coming into Illinois, I had a narrow view of who I could become and what I could do. Hack4Impact really changed that for me. So grateful to learn with an amazing group of developers, designers, and all-around inspiring humans. Moving forward, I aspire to deepen our avenues for social impact and foster friendships that last beyond our short time here at Illinois. Can't wait to write Hack4Impact's story together with everyone!",
-      linkedin: "https://www.linkedin.com/in/anniewu701/",
-    },
-    {
       name: "Arpan Laha",
       year: "'21",
       quote:
         "When I joined Hack4Impact, I had no idea which direction I wanted to take with my life - academically, professionally, and personally. In my time here, however, I've been able to build my skills while seeing how they fit into the bigger picture, not to mention creating a tangible impact with some of the most hard-working and motivated people I've met. It's been great to see how the organization has evolved in the past few semesters and I'm excited to see how it continues to grow!",
       linkedin: "https://www.linkedin.com/in/arpanlaha/",
     },
+    {
+      name: "Tiffany Duong",
+      year: "'22",
+      quote:
+        "Going into college, I knew that I wanted to make a positive impact on the world but I was unsure as to how or where to even start — nor how my technical skills and interests fit into that. Joining Hack4Impact really changed that for me. I have been granted the opportunity to engage with nonprofits and chapters worldwide in addition to being able to call Hack4Impact’s people some of my best friends. I hope to continue growing and spreading the mission of social impact technology, and I am so grateful to be here!",
+      linkedin: "https://www.linkedin.com/in/tiffanytnduong/",
+    }
   ],
   team: [
     {
@@ -27,6 +27,11 @@ export default {
       linkedin: "https://www.linkedin.com/in/suewee/",
     },
     {
+      name: "Yousef Ahmed",
+      role: "Tech Director",
+      linkedin: "http://www.linkedin.com/in/yousef-a/",
+    },
+    {
       name: "Rebecca Xun",
       role: "Product Manager",
       linkedin: "https://www.linkedin.com/in/rebeccaxun/",
@@ -37,29 +42,19 @@ export default {
       linkedin: "https://www.linkedin.com/in/evaneckels/",
     },
     {
-      name: "Tiffany Duong",
-      role: "Product Manager",
-      linkedin: "https://www.linkedin.com/in/tiffanytnduong/",
-    },
-    {
       name: "Angela Luo",
       role: "Product Manager",
       linkedin: "https://www.linkedin.com/in/angela-luo-566340191/",
     },
     {
-      name: "Kelley Chau",
-      role: "Tech Lead",
-      linkedin: "https://www.linkedin.com/in/kelley-chau-838ab313b/",
+      name: "Sahithi Muthyala",
+      role: "Product Manager",
+      linkedin: "http://linkedin.com/in/sahithimuthyala/",
     },
     {
-      name: "Utkarsh Awasthi",
+      name: "Jacqueline Osborn",
       role: "Tech Lead",
-      linkedin: "https://www.linkedin.com/in/navamawasthi/",
-    },
-    {
-      name: "Yousef Ahmed",
-      role: "Tech Lead",
-      linkedin: "http://www.linkedin.com/in/yousef-a/",
+      linkedin: "https://www.linkedin.com/in/jacqueline-osborn-70a149149/",
     },
     {
       name: "Kendall Hester",
@@ -67,14 +62,24 @@ export default {
       linkedin: "https://www.linkedin.com/in/kendall-hester-429591168/",
     },
     {
-      name: "Sahithi Muthyala",
-      role: "Product Research Lead",
-      linkedin: "http://linkedin.com/in/sahithimuthyala/",
+      name: "Alice Fang",
+      role: "Tech Lead",
+      linkedin: "https://www.linkedin.com/in/alicesf2/",
     },
     {
-      name: "Alice Fang",
-      role: "Academy Lead",
-      linkedin: "https://www.linkedin.com/in/alicesf2/",
+      name: "Matthew Walowski",
+      role: "Tech Lead",
+      linkedin: "http://www.linkedin.com/in/matthew-walowski/",
+    },
+    {
+      name: "Jeffrey Tang",
+      role: "Tech Lead",
+      linkedin: "https://www.linkedin.com/in/jeffrey-tang/",
+    },
+    {
+      name: "Zayyan Faizal",
+      role: "Product Research Lead",
+      linkedin: "https://www.linkedin.com/in/zayyanfaizal/",
     },
     {
       name: "Brandon Wang",
@@ -82,19 +87,9 @@ export default {
       linkedin: "http://linkedin.com/in/brandonw4/",
     },
     {
-      name: "Shreyas Mohan",
-      role: "Academy Lead",
-      linkedin: "https://www.linkedin.com/in/shreyasmohan/",
-    },
-    {
       name: "Philip Kuo",
       role: "Product Designer",
       linkedin: "https://www.linkedin.com/in/pkgamma/",
-    },
-    {
-      name: "Zayyan Faizal",
-      role: "Product Designer",
-      linkedin: "https://www.linkedin.com/in/zayyanfaizal/",
     },
     {
       name: "Siraj Chokshi",
@@ -107,14 +102,24 @@ export default {
       linkedin: "https://www.linkedin.com/in/anisharao14/",
     },
     {
+      name: "Shreyas Mohan",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/shreyasmohan/",
+    },
+    {
+      name: "Kelley Chau",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/kelley-chau-838ab313b/",
+    },
+    {
+      name: "Utkarsh Awasthi",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/navamawasthi/",
+    },
+    {
       name: "Neeraj Aggarwal",
       role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/neeraj-aggarwal/",
-    },
-    {
-      name: "Jacqueline Osborn",
-      role: "Software Developer",
-      linkedin: "https://www.linkedin.com/in/jacqueline-osborn-70a149149/",
     },
     {
       name: "Daniel Choi",
@@ -171,11 +176,6 @@ export default {
       linkedin: "https://www.linkedin.com/in/ashwinsax/",
     },
     {
-      name: "Matthew Walowski",
-      role: "Software Developer",
-      linkedin: "http://www.linkedin.com/in/matthew-walowski/",
-    },
-    {
       name: "Ashank Behara",
       role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/ashankbehara/",
@@ -222,11 +222,6 @@ export default {
     {
       name: "Ishaan Sharma",
       role: "Academy Member",
-    },
-    {
-      name: "Jeffrey Tang",
-      role: "Software Developer",
-      linkedin: "https://www.linkedin.com/in/jeffrey-tang/",
     },
     {
       name: "Kelly Dunleavy",
