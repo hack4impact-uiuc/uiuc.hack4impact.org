@@ -11,7 +11,7 @@ export default {
       name: "Tiffany Duong",
       year: "'22",
       quote:
-        "Going into college, I knew that I wanted to make a positive impact on the world but I was unsure as to how or where to even start — nor how my technical skills and interests fit into that. Joining Hack4Impact really changed that for me. I have been granted the opportunity to engage with nonprofits and chapters worldwide in addition to being able to call Hack4Impact’s people some of my best friends. I hope to continue growing and spreading the mission of social impact technology, and I am so grateful to be here!",
+        "Going into college, I knew that I wanted to make a positive impact on the world, but I was unsure as to how or where to even start — nor how my technical skills and interests fit into that. Joining Hack4Impact really changed that for me. I have been granted the opportunity to engage with nonprofits and chapters worldwide in addition to being able to call Hack4Impact’s people some of my best friends. I hope to continue growing and spreading the mission of social impact technology, and I am so grateful to be here!",
       linkedin: "https://www.linkedin.com/in/tiffanytnduong/",
     },
   ],
@@ -52,6 +52,11 @@ export default {
       linkedin: "http://linkedin.com/in/sahithimuthyala/",
     },
     {
+      name: "Lam Tran",
+      role: "Product Manager",
+      linkedin: "https://www.linkedin.com/in/lamgtran/",
+    },
+    {
       name: "Jacqueline Osborn",
       role: "Tech Lead",
       linkedin: "https://www.linkedin.com/in/jacqueline-osborn-70a149149/",
@@ -82,16 +87,6 @@ export default {
       linkedin: "https://www.linkedin.com/in/zayyanfaizal/",
     },
     {
-      name: "Brandon Wang",
-      role: "Academy Lead",
-      linkedin: "http://linkedin.com/in/brandonw4/",
-    },
-    {
-      name: "Philip Kuo",
-      role: "Product Designer",
-      linkedin: "https://www.linkedin.com/in/pkgamma/",
-    },
-    {
       name: "Siraj Chokshi",
       role: "Product Designer",
       linkedin: "https://www.linkedin.com/in/sirajchokshi/",
@@ -102,39 +97,14 @@ export default {
       linkedin: "https://www.linkedin.com/in/anisharao14/",
     },
     {
-      name: "Shreyas Mohan",
-      role: "Software Developer",
-      linkedin: "https://www.linkedin.com/in/shreyasmohan/",
-    },
-    {
       name: "Kelley Chau",
       role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/kelley-chau-838ab313b/",
     },
     {
-      name: "Utkarsh Awasthi",
-      role: "Software Developer",
-      linkedin: "https://www.linkedin.com/in/navamawasthi/",
-    },
-    {
-      name: "Neeraj Aggarwal",
-      role: "Software Developer",
-      linkedin: "https://www.linkedin.com/in/neeraj-aggarwal/",
-    },
-    {
-      name: "Daniel Choi",
-      role: "Software Developer",
-      linkedin: "https://www.linkedin.com/in/choiboy98/",
-    },
-    {
       name: "Anooj Lal",
       role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/anoojlal/",
-    },
-    {
-      name: "Michael Leon",
-      role: "Software Developer",
-      linkedin: "https://www.linkedin.com/in/michael-l-7a4637109/",
     },
     {
       name: "Michael Chen",
@@ -155,11 +125,6 @@ export default {
       name: "Eugenia Chen",
       role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/eugenia-chen-3aa251131/",
-    },
-    {
-      name: "Lam Tran",
-      role: "Software Developer",
-      linkedin: "https://www.linkedin.com/in/lamgtran/",
     },
     {
       name: "Lauren Ho",
@@ -301,6 +266,11 @@ export default {
       linkedin: "https://www.linkedin.com/in/hana-rimawi/",
     },
     {
+      name: "Daniel Choi",
+      role: "Director of External Relations",
+      linkedin: "https://www.linkedin.com/in/choiboy98/",
+    },
+    {
       name: "Helena Chi",
       role: "Director of External Relations",
       linkedin: "https://www.linkedin.com/in/helena-chi-025331135/",
@@ -329,6 +299,11 @@ export default {
       name: "Alan Fang",
       role: "Product Manager",
       linkedin: "https://www.linkedin.com/in/alan-fang/",
+    },
+    {
+      name: "Neeraj Aggarwal",
+      role: "Product Manager",
+      linkedin: "https://www.linkedin.com/in/neeraj-aggarwal/",
     },
     {
       name: "David Wang",
@@ -361,9 +336,34 @@ export default {
       linkedin: "https://www.linkedin.com/in/aryn/",
     },
     {
+      name: "Utkarsh Awasthi",
+      role: "Tech Lead",
+      linkedin: "https://www.linkedin.com/in/navamawasthi/",
+    },
+    {
+      name: "Brandon Wang",
+      role: "Academy Lead",
+      linkedin: "http://linkedin.com/in/brandonw4/",
+    },
+    {
+      name: "Shreyas Mohan",
+      role: "Academy Lead",
+      linkedin: "https://www.linkedin.com/in/shreyasmohan/",
+    },
+    {
+      name: "Philip Kuo",
+      role: "Product Designer",
+      linkedin: "https://www.linkedin.com/in/pkgamma/",
+    },
+    {
       name: "Chloe Chan",
       role: "Product Designer",
       linkedin: "https://www.linkedin.com/in/chloegchan/",
+    },
+    {
+      name: "Michael Leon",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/michael-l-7a4637109/",
     },
     {
       name: "Alan Ren",
