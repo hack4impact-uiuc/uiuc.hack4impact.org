@@ -97,6 +97,11 @@ export default {
       linkedin: "https://www.linkedin.com/in/anisharao14/",
     },
     {
+      name: "Faith Losbanes",
+      role: "Product Designer",
+      linkedin: "https://www.linkedin.com/in/faith-losbanes-527a97196",
+    },
+    {
       name: "Kelley Chau",
       role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/kelley-chau-838ab313b/",
@@ -180,11 +185,6 @@ export default {
       linkedin: "https://www.linkedin.com/in/daniel-moon-a46b0818b/",
     },
     {
-      name: "Faith Losbanes",
-      role: "Product Designer",
-      linkedin: "https://www.linkedin.com/in/faith-losbanes-527a97196",
-    },
-    {
       name: "Ishaan Sharma",
       role: "Academy Member",
     },
@@ -255,6 +255,11 @@ export default {
       name: "Roy Chiu",
       role: "Co-Director",
       linkedin: "https://www.linkedin.com/in/royguanchiu/",
+    },
+    {
+      name: "Annie Wu",
+      role: "Co-Director",
+      linkedin: "https://www.linkedin.com/in/anniewu701",
     },
     {
       name: "Doris Zhao",
