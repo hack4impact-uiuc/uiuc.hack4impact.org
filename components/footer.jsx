@@ -9,7 +9,7 @@ const Footer = () => (
         <Col md="5" xs="12" className="footer-left-div">
           <div className="footer-logo-box">
             <img
-              src="/images/h4i_white.png"
+              src="/images/h4i_white.svg"
               height="35"
               width="200"
               alt="Hack4Impact logo"
