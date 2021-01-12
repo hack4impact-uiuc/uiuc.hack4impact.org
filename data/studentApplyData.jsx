@@ -251,7 +251,7 @@ const studentProcess = [
   {
     title: "Interviews", //section for for designer recruitment only
     detail:
-      "Hack4Impact looks for students who are hungry to learn, excellent teammates, and passionate about creating a social impact. Our interviews will give you an opportunity to answer questions about yourself and role-specific tasks. This assingnment is due at midnight.",
+      "Hack4Impact looks for students who are hungry to learn, excellent teammates, and passionate about creating a social impact. Our interviews will give you an opportunity to answer questions about yourself and role-specific tasks.",
     icon: <Interview />,
     date: firstRoundInterviewDate,
   },
