@@ -22,7 +22,7 @@ const firstRoundInterviewDate =
    "Monday, February 1 - Tuesday, February 2"; //Mon - Tue Feb 1 - 2, 2021
 // const secondRoundInterviewDate = "Monday, September 7 - Wednesday, September 9"; //Mon-Wed Sept 7-9, 2020
 // const socialRoundDate = "Saturday, September 12"; //Sat Sept 12, 2020
-const takeHomeExerciseDate = "Due Tuesday, January 2"; //Tue, Jan 2, 2021
+const takeHomeExerciseDate = "Due Tuesday, February 2"; //Tue, Feb 2, 2021
 
 const subHeadline =
   "Students are a core part of what makes Hack4Impact. Joining Hack4Impact is the perfect way to give back while developing new skills and making long-lasting friendships.";
@@ -176,7 +176,7 @@ const studentProcess = [
     title: "Application Released",
     detail: (
       <>
-        <p>Applications will be released on Tuesday, January 12.</p>
+        <p>Applications released on Tuesday, January 12.</p>
         <a href={applicationLink} target="_blank" rel="noopener noreferrer">
           Link to application
         </a>
@@ -251,7 +251,7 @@ const studentProcess = [
   {
     title: "Interviews", //section for for designer recruitment only
     detail:
-      "Hack4Impact looks for students who are hungry to learn, excellent teammates, and passionate about creating a social impact. Our interviews will give you an opportunity to answer questions about yourself and role-specific tasks.",
+      "Hack4Impact looks for students who are hungry to learn, excellent teammates, and passionate about creating a social impact. Our interview will give you an opportunity to answer questions about yourself and role-specific tasks.",
     icon: <Interview />,
     date: firstRoundInterviewDate,
   },
@@ -277,7 +277,7 @@ const studentProcess = [
   //   date: socialRoundDate,
   // },
   {
-    title: "Take Home Exercise", // sp21 designer recruitment only
+    title: "Take-Home Exercise", // sp21 designer recruitment only
     detail:
       "If extended an interview, you will be responsible for a take-home assignment. This will be an opportunity for you to showcase your skill and understanding in design.",
     icon: <Contract />,

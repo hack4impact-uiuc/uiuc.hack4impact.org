@@ -107,11 +107,6 @@ export default {
       linkedin: "https://www.linkedin.com/in/kelley-chau-838ab313b/",
     },
     {
-      name: "Neeraj Aggarwal",
-      role: "Software Developer",
-      linkedin: "https://www.linkedin.com/in/neeraj-aggarwal/",
-    },
-    {
       name: "Michael Chen",
       role: "Software Developer",
       linkedin: "linkedin.com/in/mc578",
@@ -304,6 +299,11 @@ export default {
       name: "Alan Fang",
       role: "Product Manager",
       linkedin: "https://www.linkedin.com/in/alan-fang/",
+    },
+    {
+      name: "Neeraj Aggarwal",
+      role: "Product Manager",
+      linkedin: "https://www.linkedin.com/in/neeraj-aggarwal/",
     },
     {
       name: "David Wang",
