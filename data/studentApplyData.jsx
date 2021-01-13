@@ -1,28 +1,28 @@
 import React from "react";
 import Interview from "../public/icons/interview.svg";
 import ActionButton from "../components/actionButton";
-//import Contract from "../public/icons/contract.svg";
+import Contract from "../public/icons/contract.svg";
 //import Education from "../public/icons/education.svg";
 
 // constants that will affect links in the student application page
-const applicationLink = "https://forms.gle/4USp6UsfcJzNqfz58";
-//const interestLink = "https://forms.gle/wDzKo1KiV3Qq86uN9"; //fa20
+const applicationLink = "http://bit.ly/h4i-uiuc-sp21-apply"; // sp21
+const interestLink = "http://bit.ly/h4i-uiuc-sp21-interest"; //sp21
 
 // current stuff
-const currentSemester = "Fall 2020";
-//const nextSemester = "Spring 2021";
+const currentSemester = "Spring 2021";
+//const nextSemester = "Fall 2021";
 
 // dates
 // const infoSessionDate = "Thursday, August 27  6:00-7:00 PM CDT"; //Thu Aug 27, 2020 6-7PM
-// const applicationReleaseDate = "Opens Monday, August 24";
+const applicationReleaseDate = "Opens Tuesday, January 12";
 // const applicationReleaseTime = "12:00 AM CDT";
-// const applicationDueDate = "Due Sunday, August 30"; //Sun Aug 20, 2020
-// const applicationDueTime = "6:00 PM CDT"; //12:00 PM
-// const firstRoundInterviewDate =
-//   "Wednesday, September 2 - Thursday, September 3"; //Wed-Thu Sept 2-3, 2020
+const applicationDueDate = "Due Friday, January 29"; //Fri Jan 29, 2021
+const applicationDueTime = "midnight Central Time"; // midnight CST
+const firstRoundInterviewDate =
+   "Monday, February 1 - Tuesday, February 2"; //Mon - Tue Feb 1 - 2, 2021
 // const secondRoundInterviewDate = "Monday, September 7 - Wednesday, September 9"; //Mon-Wed Sept 7-9, 2020
 // const socialRoundDate = "Saturday, September 12"; //Sat Sept 12, 2020
-// const takeHomeExerciseDate = "Due Sunday, September 13"; //Sun Sept 13, 2020
+const takeHomeExerciseDate = "Due Tuesday, January 2"; //Tue, Jan 2, 2021
 
 const subHeadline =
   "Students are a core part of what makes Hack4Impact. Joining Hack4Impact is the perfect way to give back while developing new skills and making long-lasting friendships.";
@@ -129,61 +129,63 @@ const faq = [
 const applicationDetail = "";
 
 const studentProcess = [
-  // {
-  //   title: "Interest Form",
-  //   detail: (
-  //     <>
-  //       <p>
-  //         Sign up below and we'll add you to a mailing list for Fall 2020
-  //         Recruitment updates! This is non-binding and you can ask to be removed
-  //         at any time.
-  //       </p>
-  //       {
-  //         <ActionButton
-  //           style={{ display: "block", marginTop: "10px" }}
-  //           text="Sign Up"
-  //           link={interestLink}
-  //         />
-  //       }
-  //     </>
-  //   ),
-  //   icon: <Contract />,
-  // },
   {
-    title: "Want Updates?",
+    title: "Interest Form",
     detail: (
       <>
         <p>
-          Keep in touch with us by following our social media. You can find 
-          recruitment updates on these platforms in addition to our website.
+          Sign up below and we'll add you to a mailing list for updates about
+          Spring 2021 recruitment, Fall 2021 recruitment, or educational content 
+          that the organization has to offer! This is non-binding and you can ask 
+          to be removed at any time.
         </p>
-        {<ActionButton
-          style={{ display: "block", marginTop: "10px" }}
-          text="Facebook"
-          link={"https://www.facebook.com/h4iuiuc/"}
-        />}
-        {<ActionButton
-          style={{ display: "block", marginTop: "10px" }}
-          text="Instagram"
-          link={"https://www.instagram.com/hack4impactuiuc/"}
-        />}
+        {
+          <ActionButton
+            style={{ display: "block", marginTop: "10px" }}
+            text="Sign Up"
+            link={interestLink}
+          />
+        }
       </>
     ),
-    icon: <Interview />
+    icon: <Contract />,
   },
   // {
-  //   title: "Application Released",
+  //   title: "Want Updates?",
   //   detail: (
   //     <>
-  //       <p>Applications will be released at midnight on August 24th!</p>
-  //       <a href={applicationLink} target="_blank" rel="noopener noreferrer">
-  //         Link to application
-  //       </a>
+  //       <p>
+  //         Keep in touch with us by following our social media. You can find 
+  //         recruitment updates on these platforms in addition to our website.
+  //       </p>
+  //       {<ActionButton
+  //         style={{ display: "block", marginTop: "10px" }}
+  //         text="Facebook"
+  //         link={"https://www.facebook.com/h4iuiuc/"}
+  //       />}
+  //       {<ActionButton
+  //         style={{ display: "block", marginTop: "10px" }}
+  //         text="Instagram"
+  //         link={"https://www.instagram.com/hack4impactuiuc/"}
+  //       />}
   //     </>
   //   ),
-  //   icon: <Contract />,
-  //   date: `${applicationReleaseDate} ${applicationReleaseTime}`,
+  //   icon: <Interview />
   // },
+  {
+    title: "Application Released",
+    detail: (
+      <>
+        <p>Applications will be released on Tuesday, January 12.</p>
+        <a href={applicationLink} target="_blank" rel="noopener noreferrer">
+          Link to application
+        </a>
+      </>
+    ),
+    icon: <Contract />,
+    date: `${applicationReleaseDate}`,
+    //date: `${applicationReleaseDate} ${applicationReleaseTime}`,
+  },
   // {
   //   title: (
   //     <>
@@ -217,7 +219,7 @@ const studentProcess = [
   //   title: "Application Due",
   //   detail: (
   //     <>
-  //       <p>Applications will be due three days after info session!</p>
+  //       <p>Applications will be on Friday, January 29 at midnight Central Time!</p>
   //       <a href={applicationLink} target="_blank" rel="noopener noreferrer">
   //         Link to application
   //       </a>
@@ -226,25 +228,33 @@ const studentProcess = [
   //   icon: <Contract />,
   //   date: `${applicationDueDate} ${applicationDueTime}`,
   // },
-  // // {
-  // //   title: "Applications",
-  // //   detail: (
-  // //     <>
-  // //       <p>
-  // //         Fill out our online application!
-  // //       </p>
-  // //       before {applicationDueTime} on{" "}
-  // //         <b>{applicationDueDate}</b>
-  // //       {<ActionButton
-  // //         style={{ display: "block", marginTop: "10px" }}
-  // //         text="Apply Now"
-  // //         link={applicationLink}
-  // //       />}
-  // //     </>
-  // //   ),
-  // //   icon: <Contract />,
-  // //   date: `${applicationDueDate} ${applicationDueTime}`
-  // // },
+  {
+    title: "Applications",
+    detail: (
+      <>
+        <p>
+          Fill out our online application
+        </p>
+        before {applicationDueTime} on{" "}
+          <b>Friday, January 29</b>.
+        {<ActionButton
+          style={{ display: "block", marginTop: "10px" }}
+          text="Apply Now"
+          link={applicationLink}
+        />}
+      </>
+    ),
+    icon: <Contract />,
+    date: `${applicationDueDate}`
+    // date: `${applicationDueDate} ${applicationDueTime}` // due time hidden
+  },
+  {
+    title: "Interviews", //section for for designer recruitment only
+    detail:
+      "Hack4Impact looks for students who are hungry to learn, excellent teammates, and passionate about creating a social impact. Our interviews will give you an opportunity to answer questions about yourself and role-specific tasks.",
+    icon: <Interview />,
+    date: firstRoundInterviewDate,
+  },
   // {
   //   title: "First Round Interviews",
   //   detail:
@@ -266,6 +276,13 @@ const studentProcess = [
   //   icon: <Interview />,
   //   date: socialRoundDate,
   // },
+  {
+    title: "Take Home Exercise", // sp21 designer recruitment only
+    detail:
+      "If extended an interview, you will be responsible for a take-home assignment. This will be an opportunity for you to showcase your skill and understanding in design.",
+    icon: <Contract />,
+    date: takeHomeExerciseDate,
+  },
   // {
   //   title: "Take Home Exercise",
   //   detail:
@@ -284,16 +301,27 @@ const studentProcess = [
 
 const closedText = (
   <p>
-    Our recruitment process has historically consisted of an Info Session and 
-    applications due in the first week of the semester and a behavioral interview, 
-    role-specific interview, and social round in the weeks to follow. Certain 
-    roles will also require a take home exercise to be completed. More information 
+    Our application period for {currentSemester}{" "}  is now open!
+    We will only be recruiting for <b> Product Designers </b> for this semester.
+    More information 
     on roles and recruitment can be found on our 
     {" "}<a href="https://www.notion.so/h4iuiuc/Join-Hack4Impact-UIUC-2e875ce396b34e6ebb23c6dda57a89aa">
     official Notion page</a>.
+    If you are interested in our other positions, feel free to fill out the 
+    Interest form below!
     <p></p>
-    Our application period for {currentSemester}{" "} <b> is now closed. </b>
   </p>
+  // <p>
+  //   Our recruitment process has historically consisted of an Info Session and 
+  //   applications due in the first week of the semester and a behavioral interview, 
+  //   role-specific interview, and social round in the weeks to follow. Certain 
+  //   roles will also require a take home exercise to be completed. More information 
+  //   on roles and recruitment can be found on our 
+  //   {" "}<a href="https://www.notion.so/h4iuiuc/Join-Hack4Impact-UIUC-2e875ce396b34e6ebb23c6dda57a89aa">
+  //   official Notion page</a>.
+  //   <p></p>
+  //   Our application period for {currentSemester}{" "} <b> is now closed. </b>
+  // </p>
 );
 export default {
   title: "Students",
