@@ -54,11 +54,6 @@ export default function NavigationBar({ navType }) {
               </Link>
             </NavItem>
             <NavItem>
-              <Link href="/design">
-                <a className="nav-link pl-3">Design</a>
-              </Link>
-            </NavItem>
-            <NavItem>
               <a
                 href="https://medium.com/hack4impact-uiuc"
                 className="nav-link pl-3"

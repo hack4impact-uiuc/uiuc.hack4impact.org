@@ -1,7 +1,6 @@
 import React from "react";
 import Section from "../section";
 import { Container, Row } from "reactstrap";
-import ActionLink from "../actionLink";
 
 export default function PartnerSection() {
   return (
@@ -39,14 +38,6 @@ export default function PartnerSection() {
             />
           </a>
         </div>
-        <Row>
-          <div className="center partner-button">
-            <ActionLink
-              text="Partner With Us"
-              link="https://h4i-sponsor.now.sh"
-            />
-          </div>
-        </Row>
       </Container>
       <style jsx>{`
         .partners-section h2 {
