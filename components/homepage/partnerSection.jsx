@@ -1,7 +1,6 @@
 import React from "react";
 import Section from "../section";
 import { Container, Row } from "reactstrap";
-import ActionLink from "../actionLink";
 
 export default function PartnerSection() {
   return (
