@@ -39,14 +39,6 @@ export default function PartnerSection() {
             />
           </a>
         </div>
-        <Row>
-          <div className="center partner-button">
-            <ActionLink
-              text="Partner With Us"
-              link="https://h4i-sponsor.now.sh"
-            />
-          </div>
-        </Row>
       </Container>
       <style jsx>{`
         .partners-section h2 {
