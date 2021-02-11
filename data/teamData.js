@@ -102,6 +102,11 @@ export default {
       linkedin: "https://www.linkedin.com/in/faith-losbanes-527a97196",
     },
     {
+      name: "Mustafa Ali",
+      role: "Product Designer",
+      linkedin: "https://www.linkedin.com/in/mustafa-ali-468a04170/",
+    },
+    {
       name: "Kelley Chau",
       role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/kelley-chau-838ab313b/",
