@@ -1,12 +1,12 @@
 import React from "react";
-// import Interview from "../public/icons/interview.svg";
-// import ActionButton from "../components/actionButton";
-// import Contract from "../public/icons/contract.svg";
+import Interview from "../public/icons/interview.svg";
+import ActionButton from "../components/actionButton";
+import Contract from "../public/icons/contract.svg";
 //import Education from "../public/icons/education.svg";
 
 // constants that will affect links in the student application page
 const applicationLink = "http://bit.ly/h4i-uiuc-sp21-apply"; // sp21
-// const interestLink = "http://bit.ly/h4i-uiuc-sp21-interest"; //sp21
+const interestLink = "http://bit.ly/h4i-uiuc-sp21-interest"; //sp21
 
 // current stuff
 const currentSemester = "Spring 2021";
@@ -128,49 +128,53 @@ const faq = [
 const applicationDetail = "";
 
 const studentProcess = [
-  // {
-  //   title: "Interest Form",
-  //   detail: (
-  //     <>
-  //       <p>
-  //         Sign up below and we'll add you to a mailing list for updates about
-  //         Spring 2021 recruitment, Fall 2021 recruitment, or educational content
-  //         that the organization has to offer! This is non-binding and you can ask
-  //         to be removed at any time.
-  //       </p>
-  //       {
-  //         <ActionButton
-  //           style={{ display: "block", marginTop: "10px" }}
-  //           text="Sign Up"
-  //           link={interestLink}
-  //         />
-  //       }
-  //     </>
-  //   ),
-  //   icon: <Contract />,
-  // },
-  // {
-  //   title: "Want Updates?",
-  //   detail: (
-  //     <>
-  //       <p>
-  //         Keep in touch with us by following our social media. You can find
-  //         recruitment updates on these platforms in addition to our website.
-  //       </p>
-  //       {<ActionButton
-  //         style={{ display: "block", marginTop: "10px" }}
-  //         text="Facebook"
-  //         link={"https://www.facebook.com/h4iuiuc/"}
-  //       />}
-  //       {<ActionButton
-  //         style={{ display: "block", marginTop: "10px" }}
-  //         text="Instagram"
-  //         link={"https://www.instagram.com/hack4impactuiuc/"}
-  //       />}
-  //     </>
-  //   ),
-  //   icon: <Interview />
-  // },
+  {
+    title: "Interest Form",
+    detail: (
+      <>
+        <p>
+          Sign up below and we'll add you to a mailing list for updates about
+          Spring 2021 recruitment, Fall 2021 recruitment, or educational content
+          that the organization has to offer! This is non-binding and you can
+          ask to be removed at any time.
+        </p>
+        {
+          <ActionButton
+            style={{ display: "block", marginTop: "10px" }}
+            text="Sign Up"
+            link={interestLink}
+          />
+        }
+      </>
+    ),
+    icon: <Contract />,
+  },
+  {
+    title: "Want Updates?",
+    detail: (
+      <>
+        <p>
+          Keep in touch with us by following our social media. You can find
+          recruitment updates on these platforms in addition to our website.
+        </p>
+        {
+          <ActionButton
+            style={{ display: "block", marginTop: "10px" }}
+            text="Facebook"
+            link={"https://www.facebook.com/h4iuiuc/"}
+          />
+        }
+        {
+          <ActionButton
+            style={{ display: "block", marginTop: "10px" }}
+            text="Instagram"
+            link={"https://www.instagram.com/hack4impactuiuc/"}
+          />
+        }
+      </>
+    ),
+    icon: <Interview />,
+  },
   // {
   //   title: "Application Released",
   //   detail: (
