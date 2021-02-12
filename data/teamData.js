@@ -23,7 +23,7 @@ export default {
     },
     {
       name: "Sue Wee",
-      role: "Director of External Relations",
+      role: "External Director",
       linkedin: "https://www.linkedin.com/in/suewee/",
     },
     {
@@ -152,7 +152,7 @@ export default {
     },
     {
       name: "Aditya Jain",
-      role: "Academy Member",
+      role: "Software Developer",
     },
     {
       name: "Amit Sawhney",
@@ -166,7 +166,7 @@ export default {
     },
     {
       name: "Archna Sobti",
-      role: "Academy Member",
+      role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/archna-sobti-1932b01b1",
     },
     {
@@ -186,7 +186,7 @@ export default {
     },
     {
       name: "Ishaan Sharma",
-      role: "Academy Member",
+      role: "Software Developer",
     },
     {
       name: "Kelly Dunleavy",
@@ -211,17 +211,17 @@ export default {
     },
     {
       name: "Neha Konjeti",
-      role: "Academy Member",
+      role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/neha-konjeti-574135199/",
     },
     {
       name: "Riya Jain",
-      role: "Academy Member",
+      role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/riya-jain-161bb3162/",
     },
     {
       name: "Vasu Chalasani",
-      role: "Academy Member",
+      role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/saivasudha-chalasani-a83684157/",
     },
   ],
