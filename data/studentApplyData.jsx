@@ -239,7 +239,9 @@ const studentProcess = [
     detail: (
       <>
         <p>Fill out our online application</p>
-        before {applicationDueTime} on <b>Sunday, May 16</b>.
+        before {applicationDueTime} on <b>Sunday, May 16</b>. External Director
+        applications will be followed by an interview as well as a take-home
+        challenge.
         {
           <ActionButton
             style={{ display: "block", marginTop: "10px" }}
@@ -258,7 +260,8 @@ const studentProcess = [
     detail: (
       <>
         <p>Fill out our online application</p>
-        before {applicationDueTime} on <b>Sunday, May 16</b>.
+        before {applicationDueTime} on <b>Sunday, May 16</b>. Tech Director
+        applications will be followed by an interview.
         {
           <ActionButton
             style={{ display: "block", marginTop: "10px" }}
@@ -331,8 +334,9 @@ const closedText = (
     <a href="https://www.notion.so/h4iuiuc/Join-Hack4Impact-UIUC-2e875ce396b34e6ebb23c6dda57a89aa">
       official Notion page
     </a>
-    . If you are interested in our other positions for the Fall 2021 semester,
-    feel free to fill out our <a href={interestLink}>Interest Form</a>!
+    . If you would like application reminders or are interested in our other
+    positions for the Fall 2021 semester, feel free to fill out our{" "}
+    <a href={interestLink}>Interest Form</a>!
   </p>
   // <p>
   //   Our application period for {currentSemester}{" "}  is now open!
