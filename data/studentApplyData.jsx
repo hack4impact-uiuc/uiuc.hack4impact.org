@@ -1,5 +1,5 @@
 import React from "react";
-import Interview from "../public/icons/interview.svg";
+// import Interview from "../public/icons/interview.svg"
 import ActionButton from "../components/actionButton";
 import Contract from "../public/icons/contract.svg";
 //import Education from "../public/icons/education.svg";
