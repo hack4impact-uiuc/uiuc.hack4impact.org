@@ -16,15 +16,16 @@ const currentSemester = "Fall 2021";
 //const nextSemester = "Fall 2021";
 
 // dates
-// const infoSessionDate = "Thursday, August 27  6:00-7:00 PM CDT"; //Thu Aug 27, 2020 6-7PM
+const infoSessionDate = "Thursday, August 26  6:00-7:00 PM CDT"; //Thu Aug 26, 2021 6-7PM
 // const applicationReleaseDate = "Opens Sunday, May 2";
 // const applicationReleaseTime = "6:00 PM CT";
-const applicationDueDate = "Due Sunday, May 16"; //
+const applicationDueDate = "Due Sunday, August 29"; // Sun, Aug 29
 const applicationDueTime = "midnight Central Time"; // midnight CST
-// const firstRoundInterviewDate = "Monday, February 1 - Tuesday, February 2"; //Mon - Tue Feb 1 - 2, 2021
-// const secondRoundInterviewDate = "Monday, September 7 - Wednesday, September 9"; //Mon-Wed Sept 7-9, 2020
-// const socialRoundDate = "Saturday, September 12"; //Sat Sept 12, 2020
+const firstRoundInterviewDate = "Wednesday, September 1 - Thursday, September 2"; //Mon - Tue Feb 1 - 2, 2021
+const secondRoundInterviewDate = "Tuesday, September 7 - Wednesday, September 8"; // Tues-Wed Sept 7-8, 2021
+const socialRoundDate = "Saturday, September 4"; //Sat Sept 4, 2021
 // const takeHomeExerciseDate = "Due Tuesday, February 2"; //Tue, Feb 2, 2021
+const productDesignInterviewDate = "Saturday, September 11"; // Sat Sept 11, 2021 
 
 const subHeadline =
   "Students are a core part of what makes Hack4Impact. Joining Hack4Impact is the perfect way to give back while developing new skills and making long-lasting friendships.";
@@ -131,27 +132,27 @@ const faq = [
 const applicationDetail = "";
 
 const studentProcess = [
-  // {
-  //   title: "Interest Form",
-  //   detail: (
-  //     <>
-  //       <p>
-  //         Sign up below and we'll add you to a mailing list for updates about
-  //         Spring 2021 recruitment, Fall 2021 recruitment, or educational content
-  //         that the organization has to offer! This is non-binding and you can
-  //         ask to be removed at any time.
-  //       </p>
-  //       {
-  //         <ActionButton
-  //           style={{ display: "block", marginTop: "10px" }}
-  //           text="Sign Up"
-  //           link={interestLink}
-  //         />
-  //       }
-  //     </>
-  //   ),
-  //   icon: <Contract />,
-  // },
+  {
+    title: "Interest Form",
+    detail: (
+      <>
+        <p>
+          Sign up below and we'll add you to a mailing list for updates about
+          Fall 2021 recruitment and educational content
+          that the organization has to offer! This is non-binding and you can
+          ask to be removed at any time.
+        </p>
+        {
+          <ActionButton
+            style={{ display: "block", marginTop: "10px" }}
+            text="Sign Up"
+            link={interestLink}
+          />
+        }
+      </>
+    ),
+    icon: <Contract />,
+  },
   // {
   //   title: "Want Updates?",
   //   detail: (
@@ -192,40 +193,40 @@ const studentProcess = [
   //   date: `${applicationReleaseDate}`,
   //   //date: `${applicationReleaseDate} ${applicationReleaseTime}`,
   // },
-  // {
-  //   title: (
-  //     <>
-  //       {/* <a href="https://www.facebook.com/events/783414215343789">
-  //         Info Session
-  //       </a> */}
-  //       Info Session
-  //     </>
-  //   ),
-  //   detail: (
-  //     <>
-  //       <p>
-  //         Be sure to come out to our Info Session to get an idea of who we are,
-  //         what we do, and the impact Hack4Impact has. For our virtual
-  //         recruitment, this will be in the form of a Facebook Livestream!
-  //       </p>
-  //       <p>
-  //         <b className="pt-2"></b>
-  //       </p>
-  //       <p>
-  //         Keep an eye on our{" "}
-  //         <a href="https://www.facebook.com/h4iuiuc/live">Facebook page</a>
-  //         {""} for when we go live!
-  //       </p>
-  //     </>
-  //   ),
-  //   icon: <Contract />,
-  //   date: infoSessionDate,
-  // },
+  {
+    title: (
+      <>
+        {/* <a href="https://www.facebook.com/events/783414215343789">
+          Info Session
+        </a> */}
+        Info Session
+      </>
+    ),
+    detail: (
+      <>
+        <p>
+          Be sure to come out to our Info Session to get an idea of who we are,
+          what we do, and the impact Hack4Impact has. For our virtual
+          recruitment, this will be in the form of a Facebook Livestream!
+        </p>
+        <p>
+          <b className="pt-2"></b>
+        </p>
+        <p>
+          Keep an eye on our{" "}
+          <a href="https://www.facebook.com/h4iuiuc/live">Facebook page</a>
+          {""} for when we go live!
+        </p>
+      </>
+    ),
+    icon: <Contract />,
+    date: infoSessionDate,
+  },
   // {
   //   title: "Application Due",
   //   detail: (
   //     <>
-  //       <p>Applications will be on Friday, January 29 at midnight Central Time!</p>
+  //       <p>Applications will be due on Sunday, August 29 at midnight Central Time!</p>
   //       <a href={applicationLink} target="_blank" rel="noopener noreferrer">
   //         Link to application
   //       </a>
@@ -234,47 +235,47 @@ const studentProcess = [
   //   icon: <Contract />,
   //   date: `${applicationDueDate} ${applicationDueTime}`,
   // },
-  {
-    title: "External Director Applications",
-    detail: (
-      <>
-        <p>Fill out our online application</p>
-        before {applicationDueTime} on <b>Sunday, May 16</b>. External Director
-        applications will be followed by an interview as well as a take-home
-        challenge.
-        {
-          <ActionButton
-            style={{ display: "block", marginTop: "10px" }}
-            text="Apply Now"
-            link={externalApplicationLink}
-          />
-        }
-      </>
-    ),
-    icon: <Contract />,
-    date: `${applicationDueDate}`,
-    // date: `${applicationDueDate} ${applicationDueTime}` // due time hidden
-  },
-  {
-    title: "Tech Director Applications",
-    detail: (
-      <>
-        <p>Fill out our online application</p>
-        before {applicationDueTime} on <b>Sunday, May 16</b>. Tech Director
-        applications will be followed by an interview.
-        {
-          <ActionButton
-            style={{ display: "block", marginTop: "10px" }}
-            text="Apply Now"
-            link={techApplicationLink}
-          />
-        }
-      </>
-    ),
-    icon: <Contract />,
-    date: `${applicationDueDate}`,
-    // date: `${applicationDueDate} ${applicationDueTime}` // due time hidden
-  },
+  // {
+  //   title: "External Director Applications",
+  //   detail: (
+  //     <>
+  //       <p>Fill out our online application</p>
+  //       before {applicationDueTime} on <b>Sunday, May 16</b>. External Director
+  //       applications will be followed by an interview as well as a take-home
+  //       challenge.
+  //       {
+  //         <ActionButton
+  //           style={{ display: "block", marginTop: "10px" }}
+  //           text="Apply Now"
+  //           link={externalApplicationLink}
+  //         />
+  //       }
+  //     </>
+  //   ),
+  //   icon: <Contract />,
+  //   date: `${applicationDueDate}`,
+  //   // date: `${applicationDueDate} ${applicationDueTime}` // due time hidden
+  // },
+  // {
+  //   title: "Tech Director Applications",
+  //   detail: (
+  //     <>
+  //       <p>Fill out our online application</p>
+  //       before {applicationDueTime} on <b>Sunday, May 16</b>. Tech Director
+  //       applications will be followed by an interview.
+  //       {
+  //         <ActionButton
+  //           style={{ display: "block", marginTop: "10px" }}
+  //           text="Apply Now"
+  //           link={techApplicationLink}
+  //         />
+  //       }
+  //     </>
+  //   ),
+  //   icon: <Contract />,
+  //   date: `${applicationDueDate}`,
+  //   // date: `${applicationDueDate} ${applicationDueTime}` // due time hidden
+  // },
   // {
   //   title: "Interviews", //section for for designer recruitment only
   //   detail:
@@ -282,27 +283,41 @@ const studentProcess = [
   //   icon: <Interview />,
   //   date: firstRoundInterviewDate,
   // },
-  // {
-  //   title: "First Round Interviews",
-  //   detail:
-  //     "Hack4Impact looks for students who are hungry to learn, excellent teammates, and are passionate for tech and social impact. Our first round interviews will give you an opportunity to answer some questions about yourself while also meeting some of our members.",
-  //   icon: <Interview />,
-  //   date: firstRoundInterviewDate,
-  // },
+  {
+    title: "First Round Interviews",
+    detail:
+      "Hack4Impact looks for students who are hungry to learn, excellent teammates, and are passionate for tech and social impact. Our first round interviews will give you an opportunity to answer some questions about yourself while also meeting some of our members.",
+    icon: <Contract />,
+    date: firstRoundInterviewDate,
+  },
   // {
   //   title: "Second Round Interviews",
   //   detail:
   //     "This will be a short role-specific interview that is relevant to the position you are applying for. We encourage discussion throughout the interview and you’ll have an opportunity to ask questions to learn more about us.",
-  //   icon: <Interview />,
+  //   icon: <Contract />,
   //   date: secondRoundInterviewDate,
   // },
-  // {
-  //   title: "Social Round",
-  //   detail:
-  //     "Our Social Night will be a fun opportunity for us to get to know each other with a more casual atmosphere. Be your authentic self!",
-  //   icon: <Interview />,
-  //   date: socialRoundDate,
-  // },
+  {
+    title: "Social Round",
+    detail:
+      "Our Social Night will be a fun opportunity for us to get to know each other with a more casual atmosphere. Be your authentic self!",
+    icon: <Contract />,
+    date: socialRoundDate,
+  },
+  {
+    title: "Software Dev/Academy Second Round Interviews",
+    detail:
+      "For Software Development/Academy Applicants, this will be a short technical interview that is relevant to the position you are applying for. We encourage discussion throughout the interview and you’ll have an opportunity to ask questions to learn more about us.",
+    icon: <Contract />,
+    date: secondRoundInterviewDate,
+  },
+  {
+    title: "Product Design Interviews",
+    detail:
+      "This will be a short role-specific interview for Product Design applicants. We encourage discussion throughout the interview and you’ll have an opportunity to ask questions to learn more about us.",
+    icon: <Contract />,
+    date: productDesignInterviewDate,
+  },
   // {
   //   title: "Take-Home Exercise", // sp21 designer recruitment only
   //   detail:
