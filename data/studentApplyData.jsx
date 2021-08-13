@@ -1,8 +1,8 @@
 import React from "react";
-// import Interview from "../public/icons/interview.svg"
+import Interview from "../public/icons/interview.svg"
 import ActionButton from "../components/actionButton";
 import Contract from "../public/icons/contract.svg";
-//import Education from "../public/icons/education.svg";
+import Education from "../public/icons/education.svg";
 
 // constants that will affect links in the student application page
 const externalApplicationLink = "https://forms.gle/Sh8C2LLgGeiV25tD6"; // sp21
@@ -206,20 +206,19 @@ const studentProcess = [
       <>
         <p>
           Be sure to come out to our Info Session to get an idea of who we are,
-          what we do, and the impact Hack4Impact has. For our virtual
-          recruitment, this will be in the form of a Facebook Livestream!
+          what we do, and the impact Hack4Impact has.
         </p>
         <p>
           <b className="pt-2"></b>
         </p>
         <p>
           Keep an eye on our{" "}
-          <a href="https://www.facebook.com/h4iuiuc/live">Facebook page</a>
-          {""} for when we go live!
+          <a href="https://www.facebook.com/h4iuiuc">Facebook page</a> and <a href="https://www.instagram.com/hack4impactuiuc">Instagram</a>
+          {""} for updates on where Info Session will take place!
         </p>
       </>
     ),
-    icon: <Contract />,
+    icon: <Education />,
     date: infoSessionDate,
   },
   // {
@@ -287,7 +286,7 @@ const studentProcess = [
     title: "First Round Interviews",
     detail:
       "Hack4Impact looks for students who are hungry to learn, excellent teammates, and are passionate for tech and social impact. Our first round interviews will give you an opportunity to answer some questions about yourself while also meeting some of our members.",
-    icon: <Contract />,
+    icon: <Interview />,
     date: firstRoundInterviewDate,
   },
   // {
@@ -301,21 +300,21 @@ const studentProcess = [
     title: "Social Round",
     detail:
       "Our Social Night will be a fun opportunity for us to get to know each other with a more casual atmosphere. Be your authentic self!",
-    icon: <Contract />,
+    icon: <Interview />,
     date: socialRoundDate,
   },
   {
     title: "Software Dev/Academy Second Round Interviews",
     detail:
       "For Software Development/Academy Applicants, this will be a short technical interview that is relevant to the position you are applying for. We encourage discussion throughout the interview and you’ll have an opportunity to ask questions to learn more about us.",
-    icon: <Contract />,
+    icon: <Interview />,
     date: secondRoundInterviewDate,
   },
   {
     title: "Product Design Interviews",
     detail:
       "This will be a short role-specific interview for Product Design applicants. We encourage discussion throughout the interview and you’ll have an opportunity to ask questions to learn more about us.",
-    icon: <Contract />,
+    icon: <Interview />,
     date: productDesignInterviewDate,
   },
   // {
