@@ -5,8 +5,8 @@ import Contract from "../public/icons/contract.svg";
 import Education from "../public/icons/education.svg";
 
 // constants that will affect links in the student application page
-const externalApplicationLink = "https://forms.gle/Sh8C2LLgGeiV25tD6"; // sp21
-const techApplicationLink = "https://forms.gle/acSm9mRfyH6MBhAa6"; // sp21
+// const externalApplicationLink = "https://forms.gle/Sh8C2LLgGeiV25tD6"; // sp21
+// const techApplicationLink = "https://forms.gle/acSm9mRfyH6MBhAa6"; // sp21
 const applicationLink =
   "https://www.notion.so/h4iuiuc/Join-Hack4Impact-UIUC-2e875ce396b34e6ebb23c6dda57a89aa";
 const interestLink = "http://bit.ly/h4i-uiuc-fa21-interest"; //fa21
