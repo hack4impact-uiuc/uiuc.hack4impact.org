@@ -17,8 +17,8 @@ const currentSemester = "Fall 2021";
 
 // dates
 const infoSessionDate = "Thursday, August 26  6:00-7:00 PM CDT"; //Thu Aug 26, 2021 6-7PM
-// const applicationReleaseDate = "Opens Sunday, May 2";
-// const applicationReleaseTime = "6:00 PM CT";
+const applicationReleaseDate = "Opens Wednesday, August 18"; // Wed Aug 18, 2021
+const applicationReleaseTime = "6:00 PM CT";
 const applicationDueDate = "Due Sunday, August 29"; // Sun, Aug 29
 const applicationDueTime = "midnight Central Time"; // midnight CST
 const firstRoundInterviewDate = "Wednesday, September 1 - Thursday, September 2"; //Mon - Tue Feb 1 - 2, 2021
@@ -179,20 +179,20 @@ const studentProcess = [
   //   ),
   //   icon: <Interview />,
   // },
-  // {
-  //   title: "Application Released",
-  //   detail: (
-  //     <>
-  //       <p>Applications released on Sunday, May 16.</p>
-  //       <a href={applicationLink} target="_blank" rel="noopener noreferrer">
-  //         Link to application
-  //       </a>
-  //     </>
-  //   ),
-  //   icon: <Contract />,
-  //   date: `${applicationReleaseDate}`,
-  //   //date: `${applicationReleaseDate} ${applicationReleaseTime}`,
-  // },
+  {
+    title: "Application Released",
+    detail: (
+      <>
+        <p>Applications released on Wednesday, August 18. We will link the application here once it is open.</p>
+        {/*<a href={applicationLink} target="_blank" rel="noopener noreferrer">
+          Link to application
+    </a>*/}
+      </>
+    ),
+    icon: <Contract />,
+    // date: `${applicationReleaseDate}`,
+    date: `${applicationReleaseDate} ${applicationReleaseTime}`,
+  },
   {
     title: (
       <>
@@ -221,19 +221,19 @@ const studentProcess = [
     icon: <Education />,
     date: infoSessionDate,
   },
-  // {
-  //   title: "Application Due",
-  //   detail: (
-  //     <>
-  //       <p>Applications will be due on Sunday, August 29 at midnight Central Time!</p>
-  //       <a href={applicationLink} target="_blank" rel="noopener noreferrer">
-  //         Link to application
-  //       </a>
-  //     </>
-  //   ),
-  //   icon: <Contract />,
-  //   date: `${applicationDueDate} ${applicationDueTime}`,
-  // },
+  {
+    title: "Application Due",
+    detail: (
+      <>
+        <p>Applications will be due on Sunday, August 29 at midnight Central Time! </p>
+        {/*<a href={applicationLink} target="_blank" rel="noopener noreferrer">
+          Link to application
+    </a>*/}
+      </>
+    ),
+    icon: <Contract />,
+    date: `${applicationDueDate} ${applicationDueTime}`,
+  },
   // {
   //   title: "External Director Applications",
   //   detail: (
@@ -304,16 +304,16 @@ const studentProcess = [
     date: socialRoundDate,
   },
   {
-    title: "Software Dev/Academy Second Round Interviews",
+    title: "Software Dev/Academy Final Round Interviews",
     detail:
-      "For Software Development/Academy Applicants, this will be a short technical interview that is relevant to the position you are applying for. We encourage discussion throughout the interview and you’ll have an opportunity to ask questions to learn more about us.",
+      "For Software Developer/Academy Member applicants, this will be a short technical interview that is relevant to the position you are applying for. We encourage discussion throughout the interview and you’ll have an opportunity to ask questions to learn more about us.",
     icon: <Interview />,
     date: secondRoundInterviewDate,
   },
   {
-    title: "Product Design Interviews",
+    title: "Product Designer Final Round Interviews",
     detail:
-      "This will be a short role-specific interview for Product Design applicants. We encourage discussion throughout the interview and you’ll have an opportunity to ask questions to learn more about us.",
+      "After the first round interviews, Product Designer applicants will be given a short take-home UI/UX design assignment that they will prepare over the course of a week and then present at their final round interviews.",
     icon: <Interview />,
     date: productDesignInterviewDate,
   },
