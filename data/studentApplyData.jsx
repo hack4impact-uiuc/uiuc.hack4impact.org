@@ -16,11 +16,11 @@ const currentSemester = "Fall 2021";
 //const nextSemester = "Fall 2021";
 
 // dates
-const infoSessionDate = "Thursday, August 26  6:00-7:00 PM CDT"; //Thu Aug 26, 2021 6-7PM
+const infoSessionDate = "Thursday, August 26  6:30-7:30 PM CDT"; //Thu Aug 26, 2021 6-7PM
 const applicationReleaseDate = "Opens Wednesday, August 18"; // Wed Aug 18, 2021
 const applicationReleaseTime = "6:00 PM CT";
 const applicationDueDate = "Due Sunday, August 29"; // Sun, Aug 29
-const applicationDueTime = "midnight Central Time"; // midnight CST
+const applicationDueTime = "11:59 PM Central Time"; // 11:59 PM CST
 const firstRoundInterviewDate = "Wednesday, September 1 - Thursday, September 2"; //Mon - Tue Feb 1 - 2, 2021
 const secondRoundInterviewDate = "Tuesday, September 7 - Wednesday, September 8"; // Tues-Wed Sept 7-8, 2021
 const socialRoundDate = "Saturday, September 4"; //Sat Sept 4, 2021
@@ -127,6 +127,26 @@ const faq = [
       </>
     ),
   },
+  {
+    question:
+      "Do Software Developer/Academy Member applicants need to complete a takehome assignment?",
+    answer:
+      "Nope, only Product Designer applicants have a takehome to complete.",
+  },
+  {
+    question:
+      "How can I learn more?",
+    answer: (
+      <>
+        Come to our Info Session on Thursday, August 26 at 6:30 PM CDT (pizza will be provided)!
+        We will be updating our social media with the exact location and more details.
+        You can also meet us at Quad Day (Sunday, August 22 from 12-4 PM) and
+        E-Night (Sunday, August 29 from 3-6 PM). All of these are opportunities to meet H4I members in-person and
+        learn more about how you can get involved.
+        Feel free to email us at <a href="mailto:uiuc@hack4impact.org">uiuc@hack4impact.org</a> with any questions or concerns you may have.
+      </>
+    )
+  },
 ];
 
 const applicationDetail = "";
@@ -225,7 +245,7 @@ const studentProcess = [
     title: "Application Due",
     detail: (
       <>
-        <p>Applications will be due on Sunday, August 29 at midnight Central Time! </p>
+        <p>Applications will be due on Sunday, August 29 at 11:59 PM Central Time! </p>
         {/*<a href={applicationLink} target="_blank" rel="noopener noreferrer">
           Link to application
     </a>*/}
