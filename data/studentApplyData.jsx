@@ -129,9 +129,9 @@ const faq = [
   },
   {
     question:
-      "Do Software Developer/Academy Member applicants need to complete a takehome assignment?",
+      "Do Software Developer/Academy Member applicants need to complete a take-home assignment?",
     answer:
-      "Nope, only Product Designer applicants have a takehome to complete.",
+      "Nope, only Product Designer applicants have a take-home to complete.",
   },
   {
     question:
@@ -362,14 +362,13 @@ const studentProcess = [
 
 const closedText = (
   <p>
-    Our External Director and Tech Director applications for {currentSemester}{" "}
-    is now open! We will only be recruiting for these roles at this time. More
+    Our Academy Member, Software Developer, and Product Designer applications for {currentSemester}{" "}
+    will be open shortly! We will only be recruiting for these roles at this time. More
     information on roles and recruitment can be found on our{" "}
     <a href="https://www.notion.so/h4iuiuc/Join-Hack4Impact-UIUC-2e875ce396b34e6ebb23c6dda57a89aa">
       official Notion page
     </a>
-    . If you would like application reminders or are interested in our other
-    positions for the Fall 2021 semester, feel free to fill out our{" "}
+    . If you would like application reminders or want to stay updated with our recruitment timeline, feel free to fill out our{" "}
     <a href={interestLink}>Interest Form</a>!
   </p>
   // <p>
