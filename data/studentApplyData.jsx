@@ -16,7 +16,7 @@ const currentSemester = "Fall 2021";
 //const nextSemester = "Fall 2021";
 
 // dates
-const infoSessionDate = "Thursday, August 26  6:30-7:30 PM CDT"; //Thu Aug 26, 2021 6-7PM
+const infoSessionDate = "Wednesday, August 25  6:30-7:30 PM CDT"; //Wed Aug 25, 2021 6:30-7:30PM
 const applicationReleaseDate = "Opens Wednesday, August 18"; // Wed Aug 18, 2021
 const applicationReleaseTime = "6:00 PM CT";
 const applicationDueDate = "Due Sunday, August 29"; // Sun, Aug 29
@@ -138,7 +138,7 @@ const faq = [
       "How can I learn more?",
     answer: (
       <>
-        Come to our Info Session on Thursday, August 26 at 6:30 PM CDT (pizza will be provided)!
+        Come to our Info Session on Wednesday, August 25 at 6:30 PM CDT (pizza will be provided)!
         We will be updating our social media with the exact location and more details.
         You can also meet us at Quad Day (Sunday, August 22 from 12-4 PM) and
         E-Night (Sunday, August 29 from 3-6 PM). All of these are opportunities to meet H4I members in-person and
@@ -226,13 +226,13 @@ const studentProcess = [
       <>
         <p>
           Be sure to come out to our Info Session to get an idea of who we are,
-          what we do, and the impact Hack4Impact has.
+          what we do, the impact Hack4Impact has, and how you can get involved!
         </p>
         <p>
           <b className="pt-2"></b>
         </p>
         <p>
-          Keep an eye on our{" "}
+          Location TBD. Keep an eye on our{" "}
           <a href="https://www.facebook.com/h4iuiuc">Facebook page</a> and <a href="https://www.instagram.com/hack4impactuiuc">Instagram</a>
           {""} for updates on where Info Session will take place!
         </p>
