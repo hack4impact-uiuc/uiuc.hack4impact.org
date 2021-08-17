@@ -1,12 +1,12 @@
 import React from "react";
-// import Interview from "../public/icons/interview.svg"
+import Interview from "../public/icons/interview.svg"
 import ActionButton from "../components/actionButton";
 import Contract from "../public/icons/contract.svg";
-//import Education from "../public/icons/education.svg";
+import Education from "../public/icons/education.svg";
 
 // constants that will affect links in the student application page
-const externalApplicationLink = "https://forms.gle/Sh8C2LLgGeiV25tD6"; // sp21
-const techApplicationLink = "https://forms.gle/acSm9mRfyH6MBhAa6"; // sp21
+// const externalApplicationLink = "https://forms.gle/Sh8C2LLgGeiV25tD6"; // sp21
+// const techApplicationLink = "https://forms.gle/acSm9mRfyH6MBhAa6"; // sp21
 const applicationLink =
   "https://www.notion.so/h4iuiuc/Join-Hack4Impact-UIUC-2e875ce396b34e6ebb23c6dda57a89aa";
 const interestLink = "http://bit.ly/h4i-uiuc-fa21-interest"; //fa21
@@ -16,15 +16,16 @@ const currentSemester = "Fall 2021";
 //const nextSemester = "Fall 2021";
 
 // dates
-// const infoSessionDate = "Thursday, August 27  6:00-7:00 PM CDT"; //Thu Aug 27, 2020 6-7PM
-// const applicationReleaseDate = "Opens Sunday, May 2";
-// const applicationReleaseTime = "6:00 PM CT";
-const applicationDueDate = "Due Sunday, May 16"; //
-const applicationDueTime = "midnight Central Time"; // midnight CST
-// const firstRoundInterviewDate = "Monday, February 1 - Tuesday, February 2"; //Mon - Tue Feb 1 - 2, 2021
-// const secondRoundInterviewDate = "Monday, September 7 - Wednesday, September 9"; //Mon-Wed Sept 7-9, 2020
-// const socialRoundDate = "Saturday, September 12"; //Sat Sept 12, 2020
+const infoSessionDate = "Wednesday, August 25  6:30-7:30 PM CDT"; //Wed Aug 25, 2021 6:30-7:30PM
+const applicationReleaseDate = "Opens Wednesday, August 18"; // Wed Aug 18, 2021
+const applicationReleaseTime = "6:00 PM CT";
+const applicationDueDate = "Due Sunday, August 29"; // Sun, Aug 29
+const applicationDueTime = "11:59 PM Central Time"; // 11:59 PM CST
+const firstRoundInterviewDate = "Wednesday, September 1 - Thursday, September 2"; //Mon - Tue Feb 1 - 2, 2021
+const secondRoundInterviewDate = "Tuesday, September 7 - Wednesday, September 8"; // Tues-Wed Sept 7-8, 2021
+const socialRoundDate = "Saturday, September 4"; //Sat Sept 4, 2021
 // const takeHomeExerciseDate = "Due Tuesday, February 2"; //Tue, Feb 2, 2021
+const productDesignInterviewDate = "Saturday, September 11"; // Sat Sept 11, 2021 
 
 const subHeadline =
   "Students are a core part of what makes Hack4Impact. Joining Hack4Impact is the perfect way to give back while developing new skills and making long-lasting friendships.";
@@ -126,32 +127,52 @@ const faq = [
       </>
     ),
   },
+  {
+    question:
+      "Do Software Developer/Academy Member applicants need to complete a take-home assignment?",
+    answer:
+      "Nope, only Product Designer applicants have a take-home to complete.",
+  },
+  {
+    question:
+      "How can I learn more?",
+    answer: (
+      <>
+        Come to our Info Session on Wednesday, August 25 at 6:30 PM CDT (pizza will be provided)!
+        We will be updating our social media with the exact location and more details.
+        You can also meet us at Quad Day (Sunday, August 22 from 12-4 PM) and
+        E-Night (Sunday, August 29 from 3-6 PM). All of these are opportunities to meet H4I members in-person and
+        learn more about how you can get involved.
+        Feel free to email us at <a href="mailto:uiuc@hack4impact.org">uiuc@hack4impact.org</a> with any questions or concerns you may have.
+      </>
+    )
+  },
 ];
 
 const applicationDetail = "";
 
 const studentProcess = [
-  // {
-  //   title: "Interest Form",
-  //   detail: (
-  //     <>
-  //       <p>
-  //         Sign up below and we'll add you to a mailing list for updates about
-  //         Spring 2021 recruitment, Fall 2021 recruitment, or educational content
-  //         that the organization has to offer! This is non-binding and you can
-  //         ask to be removed at any time.
-  //       </p>
-  //       {
-  //         <ActionButton
-  //           style={{ display: "block", marginTop: "10px" }}
-  //           text="Sign Up"
-  //           link={interestLink}
-  //         />
-  //       }
-  //     </>
-  //   ),
-  //   icon: <Contract />,
-  // },
+  {
+    title: "Interest Form",
+    detail: (
+      <>
+        <p>
+          Sign up below and we'll add you to a mailing list for updates about
+          Fall 2021 recruitment and educational content
+          that the organization has to offer! This is non-binding and you can
+          ask to be removed at any time.
+        </p>
+        {
+          <ActionButton
+            style={{ display: "block", marginTop: "10px" }}
+            text="Sign Up"
+            link={interestLink}
+          />
+        }
+      </>
+    ),
+    icon: <Contract />,
+  },
   // {
   //   title: "Want Updates?",
   //   detail: (
@@ -178,103 +199,102 @@ const studentProcess = [
   //   ),
   //   icon: <Interview />,
   // },
-  // {
-  //   title: "Application Released",
-  //   detail: (
-  //     <>
-  //       <p>Applications released on Sunday, May 16.</p>
-  //       <a href={applicationLink} target="_blank" rel="noopener noreferrer">
-  //         Link to application
-  //       </a>
-  //     </>
-  //   ),
-  //   icon: <Contract />,
-  //   date: `${applicationReleaseDate}`,
-  //   //date: `${applicationReleaseDate} ${applicationReleaseTime}`,
-  // },
-  // {
-  //   title: (
-  //     <>
-  //       {/* <a href="https://www.facebook.com/events/783414215343789">
-  //         Info Session
-  //       </a> */}
-  //       Info Session
-  //     </>
-  //   ),
-  //   detail: (
-  //     <>
-  //       <p>
-  //         Be sure to come out to our Info Session to get an idea of who we are,
-  //         what we do, and the impact Hack4Impact has. For our virtual
-  //         recruitment, this will be in the form of a Facebook Livestream!
-  //       </p>
-  //       <p>
-  //         <b className="pt-2"></b>
-  //       </p>
-  //       <p>
-  //         Keep an eye on our{" "}
-  //         <a href="https://www.facebook.com/h4iuiuc/live">Facebook page</a>
-  //         {""} for when we go live!
-  //       </p>
-  //     </>
-  //   ),
-  //   icon: <Contract />,
-  //   date: infoSessionDate,
-  // },
-  // {
-  //   title: "Application Due",
-  //   detail: (
-  //     <>
-  //       <p>Applications will be on Friday, January 29 at midnight Central Time!</p>
-  //       <a href={applicationLink} target="_blank" rel="noopener noreferrer">
-  //         Link to application
-  //       </a>
-  //     </>
-  //   ),
-  //   icon: <Contract />,
-  //   date: `${applicationDueDate} ${applicationDueTime}`,
-  // },
   {
-    title: "External Director Applications",
+    title: "Application Released",
     detail: (
       <>
-        <p>Fill out our online application</p>
-        before {applicationDueTime} on <b>Sunday, May 16</b>. External Director
-        applications will be followed by an interview as well as a take-home
-        challenge.
-        {
-          <ActionButton
-            style={{ display: "block", marginTop: "10px" }}
-            text="Apply Now"
-            link={externalApplicationLink}
-          />
-        }
+        <p>Applications released on Wednesday, August 18. We will link the application here once it is open.</p>
+        {/*<a href={applicationLink} target="_blank" rel="noopener noreferrer">
+          Link to application
+    </a>*/}
       </>
     ),
     icon: <Contract />,
-    date: `${applicationDueDate}`,
-    // date: `${applicationDueDate} ${applicationDueTime}` // due time hidden
+    // date: `${applicationReleaseDate}`,
+    date: `${applicationReleaseDate} ${applicationReleaseTime}`,
   },
   {
-    title: "Tech Director Applications",
+    title: (
+      <>
+        {/* <a href="https://www.facebook.com/events/783414215343789">
+          Info Session
+        </a> */}
+        Info Session
+      </>
+    ),
     detail: (
       <>
-        <p>Fill out our online application</p>
-        before {applicationDueTime} on <b>Sunday, May 16</b>. Tech Director
-        applications will be followed by an interview.
-        {
-          <ActionButton
-            style={{ display: "block", marginTop: "10px" }}
-            text="Apply Now"
-            link={techApplicationLink}
-          />
-        }
+        <p>
+          Be sure to come out to our Info Session to get an idea of who we are,
+          what we do, the impact Hack4Impact has, and how you can get involved!
+        </p>
+        <p>
+          <b className="pt-2"></b>
+        </p>
+        <p>
+          Location TBD. Keep an eye on our{" "}
+          <a href="https://www.facebook.com/h4iuiuc">Facebook page</a> and <a href="https://www.instagram.com/hack4impactuiuc">Instagram</a>
+          {""} for updates on where Info Session will take place!
+        </p>
+      </>
+    ),
+    icon: <Education />,
+    date: infoSessionDate,
+  },
+  {
+    title: "Application Due",
+    detail: (
+      <>
+        <p>Applications will be due on Sunday, August 29 at 11:59 PM Central Time! </p>
+        {/*<a href={applicationLink} target="_blank" rel="noopener noreferrer">
+          Link to application
+    </a>*/}
       </>
     ),
     icon: <Contract />,
-    date: `${applicationDueDate}`,
-    // date: `${applicationDueDate} ${applicationDueTime}` // due time hidden
+    date: `${applicationDueDate} ${applicationDueTime}`,
   },
+  // {
+  //   title: "External Director Applications",
+  //   detail: (
+  //     <>
+  //       <p>Fill out our online application</p>
+  //       before {applicationDueTime} on <b>Sunday, May 16</b>. External Director
+  //       applications will be followed by an interview as well as a take-home
+  //       challenge.
+  //       {
+  //         <ActionButton
+  //           style={{ display: "block", marginTop: "10px" }}
+  //           text="Apply Now"
+  //           link={externalApplicationLink}
+  //         />
+  //       }
+  //     </>
+  //   ),
+  //   icon: <Contract />,
+  //   date: `${applicationDueDate}`,
+  //   // date: `${applicationDueDate} ${applicationDueTime}` // due time hidden
+  // },
+  // {
+  //   title: "Tech Director Applications",
+  //   detail: (
+  //     <>
+  //       <p>Fill out our online application</p>
+  //       before {applicationDueTime} on <b>Sunday, May 16</b>. Tech Director
+  //       applications will be followed by an interview.
+  //       {
+  //         <ActionButton
+  //           style={{ display: "block", marginTop: "10px" }}
+  //           text="Apply Now"
+  //           link={techApplicationLink}
+  //         />
+  //       }
+  //     </>
+  //   ),
+  //   icon: <Contract />,
+  //   date: `${applicationDueDate}`,
+  //   // date: `${applicationDueDate} ${applicationDueTime}` // due time hidden
+  // },
   // {
   //   title: "Interviews", //section for for designer recruitment only
   //   detail:
@@ -282,27 +302,41 @@ const studentProcess = [
   //   icon: <Interview />,
   //   date: firstRoundInterviewDate,
   // },
-  // {
-  //   title: "First Round Interviews",
-  //   detail:
-  //     "Hack4Impact looks for students who are hungry to learn, excellent teammates, and are passionate for tech and social impact. Our first round interviews will give you an opportunity to answer some questions about yourself while also meeting some of our members.",
-  //   icon: <Interview />,
-  //   date: firstRoundInterviewDate,
-  // },
+  {
+    title: "First Round Interviews",
+    detail:
+      "Hack4Impact looks for students who are hungry to learn, excellent teammates, and are passionate for tech and social impact. Our first round interviews will give you an opportunity to answer some questions about yourself while also meeting some of our members.",
+    icon: <Interview />,
+    date: firstRoundInterviewDate,
+  },
   // {
   //   title: "Second Round Interviews",
   //   detail:
   //     "This will be a short role-specific interview that is relevant to the position you are applying for. We encourage discussion throughout the interview and you’ll have an opportunity to ask questions to learn more about us.",
-  //   icon: <Interview />,
+  //   icon: <Contract />,
   //   date: secondRoundInterviewDate,
   // },
-  // {
-  //   title: "Social Round",
-  //   detail:
-  //     "Our Social Night will be a fun opportunity for us to get to know each other with a more casual atmosphere. Be your authentic self!",
-  //   icon: <Interview />,
-  //   date: socialRoundDate,
-  // },
+  {
+    title: "Social Round",
+    detail:
+      "Our Social Night will be a fun opportunity for us to get to know each other with a more casual atmosphere. Be your authentic self!",
+    icon: <Interview />,
+    date: socialRoundDate,
+  },
+  {
+    title: "Software Dev/Academy Final Round Interviews",
+    detail:
+      "For Software Developer/Academy Member applicants, this will be a short technical interview that is relevant to the position you are applying for. We encourage discussion throughout the interview and you’ll have an opportunity to ask questions to learn more about us.",
+    icon: <Interview />,
+    date: secondRoundInterviewDate,
+  },
+  {
+    title: "Product Designer Final Round Interviews",
+    detail:
+      "After the first round interviews, Product Designer applicants will be given a short take-home UI/UX design assignment that they will prepare over the course of a week and then present at their final round interviews.",
+    icon: <Interview />,
+    date: productDesignInterviewDate,
+  },
   // {
   //   title: "Take-Home Exercise", // sp21 designer recruitment only
   //   detail:
@@ -328,14 +362,13 @@ const studentProcess = [
 
 const closedText = (
   <p>
-    Our External Director and Tech Director applications for {currentSemester}{" "}
-    is now open! We will only be recruiting for these roles at this time. More
+    Our Academy Member, Software Developer, and Product Designer applications for {currentSemester}{" "}
+    will be open shortly! We will only be recruiting for these roles at this time. More
     information on roles and recruitment can be found on our{" "}
     <a href="https://www.notion.so/h4iuiuc/Join-Hack4Impact-UIUC-2e875ce396b34e6ebb23c6dda57a89aa">
       official Notion page
     </a>
-    . If you would like application reminders or are interested in our other
-    positions for the Fall 2021 semester, feel free to fill out our{" "}
+    . If you would like application reminders or want to stay updated with our recruitment timeline, feel free to fill out our{" "}
     <a href={interestLink}>Interest Form</a>!
   </p>
   // <p>
