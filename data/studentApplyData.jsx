@@ -219,13 +219,13 @@ const studentProcess = [
         {/* <a href="https://www.facebook.com/events/783414215343789">
           Info Session
         </a> */}
-        Info Session
+        Info Night
       </>
     ),
     detail: (
       <>
         <p>
-          Be sure to come out to our Info Session to get an idea of who we are,
+          Be sure to come out to our Info Night to get an idea of who we are,
           what we do, the impact Hack4Impact has, and how you can get involved!
         </p>
         <p>
@@ -234,7 +234,7 @@ const studentProcess = [
         <p>
           Location TBD. Keep an eye on our{" "}
           <a href="https://www.facebook.com/h4iuiuc">Facebook page</a> and <a href="https://www.instagram.com/hack4impactuiuc">Instagram</a>
-          {""} for updates on where Info Session will take place!
+          {""} for updates on where Info Night will take place!
         </p>
       </>
     ),
