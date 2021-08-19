@@ -8,7 +8,7 @@ import Education from "../public/icons/education.svg";
 // const externalApplicationLink = "https://forms.gle/Sh8C2LLgGeiV25tD6"; // sp21
 // const techApplicationLink = "https://forms.gle/acSm9mRfyH6MBhAa6"; // sp21
 const applicationLink =
-  "https://www.notion.so/h4iuiuc/Join-Hack4Impact-UIUC-2e875ce396b34e6ebb23c6dda57a89aa";
+  "https://h4i.app/apply";
 const interestLink = "http://bit.ly/h4i-uiuc-fa21-interest"; //fa21
 
 // current stuff
@@ -203,10 +203,12 @@ const studentProcess = [
     title: "Application Released",
     detail: (
       <>
-        <p>Applications released on Wednesday, August 18. We will link the application here once it is open.</p>
-        {/*<a href={applicationLink} target="_blank" rel="noopener noreferrer">
-          Link to application
-    </a>*/}
+        <p>Applications are open! Feel free to reach out to us with any questions you may have.</p>
+        <ActionButton
+          style={{ display: "block", marginTop: "10px" }}
+          text="Apply!"
+          link={applicationLink}
+        />
       </>
     ),
     icon: <Contract />,
@@ -219,13 +221,13 @@ const studentProcess = [
         {/* <a href="https://www.facebook.com/events/783414215343789">
           Info Session
         </a> */}
-        Info Session
+        Info Night
       </>
     ),
     detail: (
       <>
         <p>
-          Be sure to come out to our Info Session to get an idea of who we are,
+          Be sure to come out to our Info Night to get an idea of who we are,
           what we do, the impact Hack4Impact has, and how you can get involved!
         </p>
         <p>
@@ -234,7 +236,7 @@ const studentProcess = [
         <p>
           Location TBD. Keep an eye on our{" "}
           <a href="https://www.facebook.com/h4iuiuc">Facebook page</a> and <a href="https://www.instagram.com/hack4impactuiuc">Instagram</a>
-          {""} for updates on where Info Session will take place!
+          {""} for updates on where Info Night will take place!
         </p>
       </>
     ),
