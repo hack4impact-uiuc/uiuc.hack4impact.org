@@ -134,12 +134,27 @@ const faq = [
       "Nope, only Product Designer applicants have a take-home to complete.",
   },
   {
+    question: "What is the entire decision timeline?",
+    answer: (
+      <>
+        <p>First Invite Decisions: Tuesday, August 31</p>
+        <p>First Round Interviews [INVITE ONLY]: Wednesday, September 1 - Thursday, September 2</p>
+        <p>Second Invite Decisions & Product Designer Take-Home Released: Friday, September 3</p>
+        <p>Social Round [SECOND INVITE ONLY]: Saturday, September 4</p>
+        <p>(Software Developers/Academy Members) Final Round Interviews [SECOND INVITE ONLY]: Tuesday, September 7 - Wednesday, September 8</p>
+        <p>(Product Designers) Final Round Interviews [SECOND INVITE ONLY]: Saturday, September 11 (Take-Home due Thursday, September 9)</p>
+        <p>Final Decisions: September 14</p>
+      </>
+    ),
+  },
+  {
     question:
       "How can I learn more?",
     answer: (
       <>
-        Come to our Info Session on Wednesday, August 25 at 6:30 PM CDT (pizza will be provided)!
+        Come to our Info Night on Wednesday, August 25 at 6:30 PM CDT!
         We will be updating our social media with the exact location and more details.
+        We will also be livestreaming this event on <a href ="https://www.facebook.com/h4iuiuc/live/">Facebook</a>
         You can also meet us at Quad Day (Sunday, August 22 from 12-4 PM) and
         E-Night (Sunday, August 29 from 3-6 PM). All of these are opportunities to meet H4I members in-person and
         learn more about how you can get involved.
@@ -219,7 +234,7 @@ const studentProcess = [
     title: (
       <>
         {/* <a href="https://www.facebook.com/events/783414215343789">
-          Info Session
+          Info Night
         </a> */}
         Info Night
       </>
@@ -307,7 +322,7 @@ const studentProcess = [
   {
     title: "First Round Interviews",
     detail:
-      "Hack4Impact looks for students who are hungry to learn, excellent teammates, and are passionate for tech and social impact. Our first round interviews will give you an opportunity to answer some questions about yourself while also meeting some of our members.",
+      "Hack4Impact looks for students who are hungry to learn, excellent teammates, and are passionate for tech and social impact. Our first round interviews via Zoom will give you an opportunity to answer some questions about yourself while also meeting some of our members.",
     icon: <Interview />,
     date: firstRoundInterviewDate,
   },
@@ -321,14 +336,14 @@ const studentProcess = [
   {
     title: "Social Round",
     detail:
-      "Our Social Night will be a fun opportunity for us to get to know each other with a more casual atmosphere. Be your authentic self!",
+      "Our Social Night will be a fun opportunity for us to get to know each other with a more casual atmosphere. Be your authentic self! This will be hosted on-campus as well as on Zoom.",
     icon: <Interview />,
     date: socialRoundDate,
   },
   {
     title: "Software Dev/Academy Final Round Interviews",
     detail:
-      "For Software Developer/Academy Member applicants, this will be a short technical interview that is relevant to the position you are applying for. We encourage discussion throughout the interview and you’ll have an opportunity to ask questions to learn more about us.",
+      "For Software Developer and Academy Member applicants, this will be a short technical interview that is relevant to the specific position you are applying for. We encourage discussion throughout the interview and you’ll have an opportunity to ask questions to learn more about us.",
     icon: <Interview />,
     date: secondRoundInterviewDate,
   },
@@ -365,7 +380,7 @@ const studentProcess = [
 const closedText = (
   <p>
     Our Academy Member, Software Developer, and Product Designer applications for {currentSemester}{" "}
-    will be open shortly! We will only be recruiting for these roles at this time. More
+    is now open! We will only be recruiting for these roles at this time. More
     information on roles and recruitment can be found on our{" "}
     <a href="https://www.notion.so/h4iuiuc/Join-Hack4Impact-UIUC-2e875ce396b34e6ebb23c6dda57a89aa">
       official Notion page
@@ -385,7 +400,7 @@ const closedText = (
   //   <p></p>
   // </p>
   // <p>
-  //   Our recruitment process has historically consisted of an Info Session and
+  //   Our recruitment process has historically consisted of an Info Night and
   //   applications due in the first week of the semester and a behavioral
   //   interview, role-specific interview, and social round in the weeks to follow.
   //   Certain roles will also require a take home exercise to be completed. More
