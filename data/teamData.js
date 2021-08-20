@@ -32,9 +32,9 @@ export default {
       linkedin: "https://www.linkedin.com/in/kendall-hester-429591168/",
     },
     {
-      name: "Sahithi Muthyala",
+      name: "Gene Wang",
       role: "Product Manager",
-      linkedin: "http://linkedin.com/in/sahithimuthyala/",
+      linkedin: "https://www.linkedin.com/in/genewang0/",
     },
     {
       name: "Lam Tran",
@@ -42,14 +42,14 @@ export default {
       linkedin: "https://www.linkedin.com/in/lamgtran/",
     },
     {
+      name: "Sahithi Muthyala",
+      role: "Product Manager",
+      linkedin: "http://linkedin.com/in/sahithimuthyala/",
+    },
+    {
       name: "Siraj Chokshi",
       role: "Product Manager",
       linkedin: "https://www.linkedin.com/in/sirajchokshi/",
-    },
-    {
-      name: "Gene Wang",
-      role: "Product Manager",
-      linkedin: "https://www.linkedin.com/in/genewang0/",
     },
     {
       name: "Ashwin Saxena",
@@ -62,6 +62,16 @@ export default {
       linkedin: "https://www.linkedin.com/in/danielle-yang-254308154/",
     },
     {
+      name: "Amit Sawhney",
+      role: "Tech Lead",
+      linkedin: "https://www.linkedin.com/in/amit-m-sawhney/",
+    },
+    {
+      name: "Jeffrey Tang",
+      role: "Tech Lead",
+      linkedin: "https://www.linkedin.com/in/jeffrey-tang/",
+    },
+    {
       name: "Leonardo Galindo",
       role: "Tech Lead",
       linkedin: "https://www.linkedin.com/in/leonardo-galindo-frias/",
@@ -72,29 +82,14 @@ export default {
       linkedin: "http://www.linkedin.com/in/matthew-walowski/",
     },
     {
-      name: "Jeffrey Tang",
-      role: "Tech Lead",
-      linkedin: "https://www.linkedin.com/in/jeffrey-tang/",
-    },
-    {
-      name: "Anisha Rao",
-      role: "Product Designer",
-      linkedin: "https://www.linkedin.com/in/anisharao14/",
-    },
-    {
       name: "Faith Losbanes",
       role: "Product Research Lead",
       linkedin: "https://www.linkedin.com/in/faith-losbanes-527a97196",
     },
     {
-      name: "Zayyan Faizal",
-      role: "Software Developer",
-      linkedin: "https://www.linkedin.com/in/zayyanfaizal/",
-    },
-    {
-      name: "Sue Wee",
-      role: "Software Developer",
-      linkedin: "https://www.linkedin.com/in/suewee/",
+      name: "Anisha Rao",
+      role: "Product Designer",
+      linkedin: "https://www.linkedin.com/in/anisharao14/",
     },
     {
       name: "Ashank Behara",
@@ -104,11 +99,6 @@ export default {
     {
       name: "Aditya Jain",
       role: "Software Developer",
-    },
-    {
-      name: "Amit Sawhney",
-      role: "Software Developer",
-      linkedin: "https://www.linkedin.com/in/amit-m-sawhney/",
     },
     {
       name: "Andy Wong",
@@ -140,11 +130,6 @@ export default {
       role: "Software Developer",
     },
     {
-      name: "Kelly Dunleavy",
-      role: "Software Developer",
-      linkedin: "https://www.linkedin.com/in/kelly-dunleavy/",
-    },
-    {
       name: "Luciana Toledo-López",
       role: "Software Developer",
       linkedin:
@@ -166,9 +151,19 @@ export default {
       linkedin: "https://www.linkedin.com/in/riya-jain-161bb3162/",
     },
     {
+      name: "Sue Wee",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/suewee/",
+    },
+    {
       name: "Vasu Chalasani",
       role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/saivasudha-chalasani-a83684157/",
+    },
+    {
+      name: "Zayyan Faizal",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/zayyanfaizal/",
     },
   ],
   alumni: [
@@ -345,6 +340,11 @@ export default {
       name: "Eugenia Chen",
       role: "Software Developer",
       linkedin: "https://www.linkedin.com/in/eugenia-chen-3aa251131/",
+    },
+    {
+      name: "Kelly Dunleavy",
+      role: "Software Developer",
+      linkedin: "https://www.linkedin.com/in/kelly-dunleavy/",
     },
     {
       name: "Lauren Ho",
