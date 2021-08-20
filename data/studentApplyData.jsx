@@ -134,15 +134,16 @@ const faq = [
       "Nope, only Product Designer applicants have a take-home to complete.",
   },
   {
-    question: "What is the decision timeline?",
+    question: "What is the entire decision timeline?",
     answer: (
       <>
-      <p>First Invite Decisions: Tuesday, August 31</p>
-      <p>First Round interviews [INVITE ONLY]: Wednesday, September 1 - Thursday, September 2</p>
-      <p>Second Invite Decisions & Product Designer Take-Home Released: Friday, September 3</p>
-      <p>Social Round [SECOND INVITE ONLY]: Saturday, September 4</p>
-      <p>(Software Developers/Academy Members) Final Round Interviews [SECOND INVITE ONLY]: Tuesday, September 7 - Wednesday, September 8</p>
-      <p>(Product Designers) Final Round Interviews [SECOND INVITE ONLY]: Saturday, September 11 (Take-Home due Thursday, September 9)</p>
+        <p>First Invite Decisions: Tuesday, August 31</p>
+        <p>First Round Interviews [INVITE ONLY]: Wednesday, September 1 - Thursday, September 2</p>
+        <p>Second Invite Decisions & Product Designer Take-Home Released: Friday, September 3</p>
+        <p>Social Round [SECOND INVITE ONLY]: Saturday, September 4</p>
+        <p>(Software Developers/Academy Members) Final Round Interviews [SECOND INVITE ONLY]: Tuesday, September 7 - Wednesday, September 8</p>
+        <p>(Product Designers) Final Round Interviews [SECOND INVITE ONLY]: Saturday, September 11 (Take-Home due Thursday, September 9)</p>
+        <p>Final Decisions: September 14</p>
       </>
     ),
   },
