@@ -10,6 +10,7 @@ import Education from "../public/icons/education.svg";
 const applicationLink =
   "https://h4i.app/apply";
 const interestLink = "http://bit.ly/h4i-uiuc-fa21-interest"; //fa21
+const infoNightLink = "https://h4i.app/info-night"; //fa21
 
 // current stuff
 const currentSemester = "Fall 2021";
@@ -138,8 +139,7 @@ const faq = [
       "How can I learn more?",
     answer: (
       <>
-        Come to our Info Session on Wednesday, August 25 at 6:30 PM CDT (pizza will be provided)!
-        We will be updating our social media with the exact location and more details.
+        Come to our Info Session on Wednesday, August 25 at 6:30 PM CDT!
         You can also meet us at Quad Day (Sunday, August 22 from 12-4 PM) and
         E-Night (Sunday, August 29 from 3-6 PM). All of these are opportunities to meet H4I members in-person and
         learn more about how you can get involved.
@@ -229,15 +229,17 @@ const studentProcess = [
         <p>
           Be sure to come out to our Info Night to get an idea of who we are,
           what we do, the impact Hack4Impact has, and how you can get involved!
+          Info Night will take place virtually as a YouTube livestream. You can click
+          the button below to join at 6:30 PM CDT on Wednesday, August 25th.
         </p>
         <p>
           <b className="pt-2"></b>
         </p>
-        <p>
-          Location TBD. Keep an eye on our{" "}
-          <a href="https://www.facebook.com/h4iuiuc">Facebook page</a> and <a href="https://www.instagram.com/hack4impactuiuc">Instagram</a>
-          {""} for updates on where Info Night will take place!
-        </p>
+        <ActionButton
+          style={{ display: "block", marginTop: "10px" }}
+          text="Join"
+          link={infoNightLink}
+        />
       </>
     ),
     icon: <Education />,
