@@ -139,8 +139,7 @@ const faq = [
       "How can I learn more?",
     answer: (
       <>
-        Come to our Info Session on Wednesday, August 25 at 6:30 PM CDT (pizza will be provided)!
-        We will be updating our social media with the exact location and more details.
+        Come to our Info Session on Wednesday, August 25 at 6:30 PM CDT!
         You can also meet us at Quad Day (Sunday, August 22 from 12-4 PM) and
         E-Night (Sunday, August 29 from 3-6 PM). All of these are opportunities to meet H4I members in-person and
         learn more about how you can get involved.
