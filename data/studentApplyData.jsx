@@ -10,6 +10,7 @@ import Education from "../public/icons/education.svg";
 const applicationLink =
   "https://h4i.app/apply";
 const interestLink = "http://bit.ly/h4i-uiuc-fa21-interest"; //fa21
+const infoNightLink = "https://h4i.app/info-night"; //fa21
 
 // current stuff
 const currentSemester = "Fall 2021";
@@ -229,15 +230,17 @@ const studentProcess = [
         <p>
           Be sure to come out to our Info Night to get an idea of who we are,
           what we do, the impact Hack4Impact has, and how you can get involved!
+          Info Night will take place virtually as a YouTube livestream. You can click
+          the button below to join at 6:30 PM CDT on Wednesday, August 25th.
         </p>
         <p>
           <b className="pt-2"></b>
         </p>
-        <p>
-          Location TBD. Keep an eye on our{" "}
-          <a href="https://www.facebook.com/h4iuiuc">Facebook page</a> and <a href="https://www.instagram.com/hack4impactuiuc">Instagram</a>
-          {""} for updates on where Info Night will take place!
-        </p>
+        <ActionButton
+          style={{ display: "block", marginTop: "10px" }}
+          text="Join"
+          link={infoNightLink}
+        />
       </>
     ),
     icon: <Education />,
