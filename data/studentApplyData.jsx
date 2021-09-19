@@ -26,7 +26,7 @@ const currentSemester = "Fall 2021";
 // const secondRoundInterviewDate = "Tuesday, September 7 - Wednesday, September 8"; // Tues-Wed Sept 7-8, 2021
 // const socialRoundDate = "Saturday, September 4"; //Sat Sept 4, 2021
 // const takeHomeExerciseDate = "Due Tuesday, February 2"; //Tue, Feb 2, 2021
-const productDesignInterviewDate = "Saturday, September 11"; // Sat Sept 11, 2021 
+// const productDesignInterviewDate = "Saturday, September 11"; // Sat Sept 11, 2021 
 
 const subHeadline =
   "Students are a core part of what makes Hack4Impact. Joining Hack4Impact is the perfect way to give back while developing new skills and making long-lasting friendships.";
