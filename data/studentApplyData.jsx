@@ -1,8 +1,8 @@
 import React from "react";
-import Interview from "../public/icons/interview.svg"
+// import Interview from "../public/icons/interview.svg"
 import ActionButton from "../components/actionButton";
 import Contract from "../public/icons/contract.svg";
-import Education from "../public/icons/education.svg";
+// import Education from "../public/icons/education.svg";
 
 // constants that will affect links in the student application page
 // const externalApplicationLink = "https://forms.gle/Sh8C2LLgGeiV25tD6"; // sp21
@@ -10,21 +10,21 @@ import Education from "../public/icons/education.svg";
 const applicationLink =
   "https://h4i.app/apply";
 const interestLink = "https://forms.gle/2g68VKsrnRq7uJtVA"; //fa21
-const infoNightLink = "https://h4i.app/info-night"; //fa21
+// const infoNightLink = "https://h4i.app/info-night"; //fa21
 
 // current stuff
 const currentSemester = "Fall 2021";
 //const nextSemester = "Fall 2021";
 
 // dates
-const infoSessionDate = "Wednesday, August 25  6:30-7:30 PM CDT"; //Wed Aug 25, 2021 6:30-7:30PM
-const applicationReleaseDate = "Opens Wednesday, August 18"; // Wed Aug 18, 2021
-const applicationReleaseTime = "6:00 PM CT";
-const applicationDueDate = "Due Sunday, August 29"; // Sun, Aug 29
-const applicationDueTime = "11:59 PM Central Time"; // 11:59 PM CST
-const firstRoundInterviewDate = "Wednesday, September 1 - Thursday, September 2"; //Mon - Tue Feb 1 - 2, 2021
-const secondRoundInterviewDate = "Tuesday, September 7 - Wednesday, September 8"; // Tues-Wed Sept 7-8, 2021
-const socialRoundDate = "Saturday, September 4"; //Sat Sept 4, 2021
+// const infoSessionDate = "Wednesday, August 25  6:30-7:30 PM CDT"; //Wed Aug 25, 2021 6:30-7:30PM
+// const applicationReleaseDate = "Opens Wednesday, August 18"; // Wed Aug 18, 2021
+// const applicationReleaseTime = "6:00 PM CT";
+// const applicationDueDate = "Due Sunday, August 29"; // Sun, Aug 29
+// const applicationDueTime = "11:59 PM Central Time"; // 11:59 PM CST
+// const firstRoundInterviewDate = "Wednesday, September 1 - Thursday, September 2"; //Mon - Tue Feb 1 - 2, 2021
+// const secondRoundInterviewDate = "Tuesday, September 7 - Wednesday, September 8"; // Tues-Wed Sept 7-8, 2021
+// const socialRoundDate = "Saturday, September 4"; //Sat Sept 4, 2021
 // const takeHomeExerciseDate = "Due Tuesday, February 2"; //Tue, Feb 2, 2021
 const productDesignInterviewDate = "Saturday, September 11"; // Sat Sept 11, 2021 
 
