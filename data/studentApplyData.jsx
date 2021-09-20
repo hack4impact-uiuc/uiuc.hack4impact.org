@@ -1,32 +1,32 @@
 import React from "react";
-import Interview from "../public/icons/interview.svg"
+// import Interview from "../public/icons/interview.svg"
 import ActionButton from "../components/actionButton";
 import Contract from "../public/icons/contract.svg";
-import Education from "../public/icons/education.svg";
+// import Education from "../public/icons/education.svg";
 
 // constants that will affect links in the student application page
 // const externalApplicationLink = "https://forms.gle/Sh8C2LLgGeiV25tD6"; // sp21
 // const techApplicationLink = "https://forms.gle/acSm9mRfyH6MBhAa6"; // sp21
 const applicationLink =
   "https://h4i.app/apply";
-const interestLink = "http://bit.ly/h4i-uiuc-fa21-interest"; //fa21
-const infoNightLink = "https://h4i.app/info-night"; //fa21
+const interestLink = "https://forms.gle/2g68VKsrnRq7uJtVA"; //fa21
+// const infoNightLink = "https://h4i.app/info-night"; //fa21
 
 // current stuff
 const currentSemester = "Fall 2021";
 //const nextSemester = "Fall 2021";
 
 // dates
-const infoSessionDate = "Wednesday, August 25  6:30-7:30 PM CDT"; //Wed Aug 25, 2021 6:30-7:30PM
-const applicationReleaseDate = "Opens Wednesday, August 18"; // Wed Aug 18, 2021
-const applicationReleaseTime = "6:00 PM CT";
-const applicationDueDate = "Due Sunday, August 29"; // Sun, Aug 29
-const applicationDueTime = "11:59 PM Central Time"; // 11:59 PM CST
-const firstRoundInterviewDate = "Wednesday, September 1 - Thursday, September 2"; //Mon - Tue Feb 1 - 2, 2021
-const secondRoundInterviewDate = "Tuesday, September 7 - Wednesday, September 8"; // Tues-Wed Sept 7-8, 2021
-const socialRoundDate = "Saturday, September 4"; //Sat Sept 4, 2021
+// const infoSessionDate = "Wednesday, August 25  6:30-7:30 PM CDT"; //Wed Aug 25, 2021 6:30-7:30PM
+// const applicationReleaseDate = "Opens Wednesday, August 18"; // Wed Aug 18, 2021
+// const applicationReleaseTime = "6:00 PM CT";
+// const applicationDueDate = "Due Sunday, August 29"; // Sun, Aug 29
+// const applicationDueTime = "11:59 PM Central Time"; // 11:59 PM CST
+// const firstRoundInterviewDate = "Wednesday, September 1 - Thursday, September 2"; //Mon - Tue Feb 1 - 2, 2021
+// const secondRoundInterviewDate = "Tuesday, September 7 - Wednesday, September 8"; // Tues-Wed Sept 7-8, 2021
+// const socialRoundDate = "Saturday, September 4"; //Sat Sept 4, 2021
 // const takeHomeExerciseDate = "Due Tuesday, February 2"; //Tue, Feb 2, 2021
-const productDesignInterviewDate = "Saturday, September 11"; // Sat Sept 11, 2021 
+// const productDesignInterviewDate = "Saturday, September 11"; // Sat Sept 11, 2021 
 
 const subHeadline =
   "Students are a core part of what makes Hack4Impact. Joining Hack4Impact is the perfect way to give back while developing new skills and making long-lasting friendships.";
@@ -128,13 +128,13 @@ const faq = [
       </>
     ),
   },
-  {
+  /*{
     question:
       "Do Software Developer/Academy Member applicants need to complete a take-home assignment?",
     answer:
       "Nope, only Product Designer applicants have a take-home to complete.",
-  },
-  {
+  },*/
+  /*{
     question:
       "How can I learn more?",
     answer: (
@@ -146,7 +146,7 @@ const faq = [
         Feel free to email us at <a href="mailto:uiuc@hack4impact.org">uiuc@hack4impact.org</a> with any questions or concerns you may have.
       </>
     )
-  },
+  },*/
 ];
 
 const applicationDetail = "";
@@ -158,7 +158,7 @@ const studentProcess = [
       <>
         <p>
           Sign up below and we'll add you to a mailing list for updates about
-          Fall 2021 recruitment and educational content
+          recruitment and educational content
           that the organization has to offer! This is non-binding and you can
           ask to be removed at any time.
         </p>
@@ -203,61 +203,61 @@ const studentProcess = [
     title: "Application Released",
     detail: (
       <>
-        <p>Applications are open! Feel free to reach out to us with any questions you may have.</p>
-        <ActionButton
+        <p>Applications are currently closed, but will re-open at the start of the spring semester. Check back in later to apply!</p>
+        {/*<ActionButton
           style={{ display: "block", marginTop: "10px" }}
           text="Apply!"
           link={applicationLink}
-        />
+        />*/}
       </>
     ),
     icon: <Contract />,
     // date: `${applicationReleaseDate}`,
-    date: `${applicationReleaseDate} ${applicationReleaseTime}`,
+    // date: `${applicationReleaseDate} ${applicationReleaseTime}`,
   },
-  {
-    title: (
-      <>
-        {/* <a href="https://www.facebook.com/events/783414215343789">
-          Info Session
-        </a> */}
-        Info Night
-      </>
-    ),
-    detail: (
-      <>
-        <p>
-          Be sure to come out to our Info Night to get an idea of who we are,
-          what we do, the impact Hack4Impact has, and how you can get involved!
-          Info Night will take place virtually as a YouTube livestream. You can click
-          the button below to join at 6:30 PM CDT on Wednesday, August 25th.
-        </p>
-        <p>
-          <b className="pt-2"></b>
-        </p>
-        <ActionButton
-          style={{ display: "block", marginTop: "10px" }}
-          text="Join"
-          link={infoNightLink}
-        />
-      </>
-    ),
-    icon: <Education />,
-    date: infoSessionDate,
-  },
-  {
-    title: "Application Due",
-    detail: (
-      <>
-        <p>Applications will be due on Sunday, August 29 at 11:59 PM Central Time! </p>
-        {/*<a href={applicationLink} target="_blank" rel="noopener noreferrer">
-          Link to application
-    </a>*/}
-      </>
-    ),
-    icon: <Contract />,
-    date: `${applicationDueDate} ${applicationDueTime}`,
-  },
+  // {
+  //   title: (
+  //     <>
+  //       {/* <a href="https://www.facebook.com/events/783414215343789">
+  //         Info Session
+  //       </a> */}
+  //       Info Night
+  //     </>
+  //   ),
+  //   detail: (
+  //     <>
+  //       <p>
+  //         Be sure to come out to our Info Night to get an idea of who we are,
+  //         what we do, the impact Hack4Impact has, and how you can get involved!
+  //         Info Night will take place virtually as a YouTube livestream. You can click
+  //         the button below to join at 6:30 PM CDT on Wednesday, August 25th.
+  //       </p>
+  //       <p>
+  //         <b className="pt-2"></b>
+  //       </p>
+  //       <ActionButton
+  //         style={{ display: "block", marginTop: "10px" }}
+  //         text="Join"
+  //         link={infoNightLink}
+  //       />
+  //     </>
+  //   ),
+  //   icon: <Education />,
+  //   date: infoSessionDate,
+  // },
+  // {
+  //   title: "Application Due",
+  //   detail: (
+  //     <>
+  //       <p>Applications will be due on Sunday, August 29 at 11:59 PM Central Time! </p>
+  //       {/*<a href={applicationLink} target="_blank" rel="noopener noreferrer">
+  //         Link to application
+  //   </a>*/}
+  //     </>
+  //   ),
+  //   icon: <Contract />,
+  //   date: `${applicationDueDate} ${applicationDueTime}`,
+  // },
   // {
   //   title: "External Director Applications",
   //   detail: (
@@ -306,13 +306,13 @@ const studentProcess = [
   //   icon: <Interview />,
   //   date: firstRoundInterviewDate,
   // },
-  {
-    title: "First Round Interviews",
-    detail:
-      "Hack4Impact looks for students who are hungry to learn, excellent teammates, and are passionate for tech and social impact. Our first round interviews will give you an opportunity to answer some questions about yourself while also meeting some of our members.",
-    icon: <Interview />,
-    date: firstRoundInterviewDate,
-  },
+  // {
+  //   title: "First Round Interviews",
+  //   detail:
+  //     "Hack4Impact looks for students who are hungry to learn, excellent teammates, and are passionate for tech and social impact. Our first round interviews will give you an opportunity to answer some questions about yourself while also meeting some of our members.",
+  //   icon: <Interview />,
+  //   date: firstRoundInterviewDate,
+  // },
   // {
   //   title: "Second Round Interviews",
   //   detail:
@@ -320,27 +320,27 @@ const studentProcess = [
   //   icon: <Contract />,
   //   date: secondRoundInterviewDate,
   // },
-  {
-    title: "Social Round",
-    detail:
-      "Our Social Night will be a fun opportunity for us to get to know each other with a more casual atmosphere. Be your authentic self!",
-    icon: <Interview />,
-    date: socialRoundDate,
-  },
-  {
-    title: "Software Dev/Academy Final Round Interviews",
-    detail:
-      "For Software Developer/Academy Member applicants, this will be a short technical interview that is relevant to the position you are applying for. We encourage discussion throughout the interview and you’ll have an opportunity to ask questions to learn more about us.",
-    icon: <Interview />,
-    date: secondRoundInterviewDate,
-  },
-  {
-    title: "Product Designer Final Round Interviews",
-    detail:
-      "After the first round interviews, Product Designer applicants will be given a short take-home UI/UX design assignment that they will prepare over the course of a week and then present at their final round interviews.",
-    icon: <Interview />,
-    date: productDesignInterviewDate,
-  },
+  // {
+  //   title: "Social Round",
+  //   detail:
+  //     "Our Social Night will be a fun opportunity for us to get to know each other with a more casual atmosphere. Be your authentic self!",
+  //   icon: <Interview />,
+  //   date: socialRoundDate,
+  // },
+  // {
+  //   title: "Software Dev/Academy Final Round Interviews",
+  //   detail:
+  //     "For Software Developer/Academy Member applicants, this will be a short technical interview that is relevant to the position you are applying for. We encourage discussion throughout the interview and you’ll have an opportunity to ask questions to learn more about us.",
+  //   icon: <Interview />,
+  //   date: secondRoundInterviewDate,
+  // },
+  // {
+  //   title: "Product Designer Final Round Interviews",
+  //   detail:
+  //     "After the first round interviews, Product Designer applicants will be given a short take-home UI/UX design assignment that they will prepare over the course of a week and then present at their final round interviews.",
+  //   icon: <Interview />,
+  //   date: productDesignInterviewDate,
+  // },
   // {
   //   title: "Take-Home Exercise", // sp21 designer recruitment only
   //   detail:
@@ -366,8 +366,8 @@ const studentProcess = [
 
 const closedText = (
   <p>
-    Our Academy Member, Software Developer, and Product Designer applications for {currentSemester}{" "}
-    will be open shortly! We will only be recruiting for these roles at this time. More
+    Our applications for {currentSemester}{" "}
+    are currently closed. Please check back in at the start of the spring semester for our next recruitment cycle. More
     information on roles and recruitment can be found on our{" "}
     <a href="https://www.notion.so/h4iuiuc/Join-Hack4Impact-UIUC-2e875ce396b34e6ebb23c6dda57a89aa">
       official Notion page
